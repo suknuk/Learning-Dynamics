@@ -61,12 +61,12 @@
 \centering
 \caption{My caption}
 \label{my-label}
-\begin{tabular}{ll|l|l|l}
+\begin{tabular}{ll|l|l|}
 \cline{3-4}
-                                                  &      & \multicolumn{2}{l|}{Player Two} &  \\ \cline{3-4}
-                                                  &      & Hawk           & Dove           &  \\ \cline{1-4}
-\multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & Hawk & qsd            & sqd            &  \\ \cline{2-4}
-\multicolumn{1}{|l|}{}                            & Dove & qsd            & qsd            &  \\ \cline{1-4}
+                                                  &      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
+                                                  &      & \multicolumn{1}{c|}{Hawk}             & \multicolumn{1}{c|}{Dove}          \\ \cline{1-4}
+\multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & Hawk & \backslashbox[35mm]{(V-D)/2}{(V-D)/2} & \backslashbox[35mm]{V}{0}          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                            & Dove & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
 \end{tabular}
 \end{table}
 

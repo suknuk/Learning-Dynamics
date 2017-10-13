@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  13 OCT 2017 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  13 OCT 2017 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -606,22 +606,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 64.
  [1] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 3282 strings out of 493029
- 40878 string characters out of 6136234
- 113321 words of memory out of 5000000
- 6763 multiletter control sequences out of 15000+600000
+ 3283 strings out of 493029
+ 40888 string characters out of 6136234
+ 114321 words of memory out of 5000000
+ 6764 multiletter control sequences out of 15000+600000
  48106 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,43p,195b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,43p,195b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb>
-Output written on main.pdf (2 pages, 155094 bytes).
+Output written on main.pdf (2 pages, 157702 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
