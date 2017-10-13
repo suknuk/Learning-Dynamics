@@ -11,12 +11,12 @@
 \usepackage{array}
 
 \usepackage{color,array}
-\def\zapcolorreset{\let\reset@color\relax\ignorespaces}
-\def\colorrows#1{\noalign{\aftergroup\zapcolorreset#1}\ignorespaces}
 
+\usepackage{float}
 \usepackage[table]{xcolor}
 
 \usepackage{multirow}
+\usepackage{slashbox} % Defines \backslashbox{..}{..}
 
 
 
@@ -57,7 +57,7 @@
 
 \section{The Hawk-Dove game}
 
-\begin{table}[]
+\begin{table}[H]
 \centering
 \caption{My caption}
 \label{my-label}
