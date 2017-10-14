@@ -22,6 +22,8 @@
 %Includes "References" in the table of contents
 \usepackage[nottoc]{tocbibind}
 
+\usepackage{enumitem}
+\setlist{nolistsep}
 
 \fancypagestyle{plain}{%
   \renewcommand{\headrulewidth}{0pt}%
@@ -60,7 +62,14 @@
 
 \section{The Hawk-Dove game}
 
-The Hawk-Dove game was first formulated by John Maynard Smith and Georg Prince in 1973 \cite{MaynardSmith1973} and the resulting payoff matrix can bee seen in \ref{tab-HawkDoveOriginal}.
+The Hawk-Dove game was first formulated by John Maynard Smith and Georg Prince in 1973 \cite{MaynardSmith1973}. The aim of the game is to gain a better understanding of conflicts in the animal kingdom. It consits of two players \{Player One, Player Two\} who have each two actions \{Hawk, Dove\}.The resulting payoff matrix can bee seen in Table \ref{tab-HawkDoveOriginal} where:
+\begin{itemize}
+  \item V = fitness value of winning resources in fight
+  \item D = fitness costs of injury
+  \item T = fitness costs of wasting time
+\end{itemize}
+
+and we assume that V,D,T $\geq$ 0.
 
 \begin{table}[H]
 \centering
@@ -74,6 +83,25 @@ The Hawk-Dove game was first formulated by John Maynard Smith and Georg Prince i
 \multicolumn{1}{|l|}{}                            					& Dove & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
 \end{tabular}
 \end{table}
+
+In a mixed strategy game, we consider each player performing his action with a certain probability \textit{p}, which results in the following payoff matrix displayed in Table \ref{tab-HawkDoveMixedStrategy}.
+
+\begin{table}[H]
+\centering
+\caption{Hawk-Dove Probability Payoff Matrix}
+\label{tab-HawkDoveMixedStrategy}
+\begin{tabular}{ll|l|l|}
+\cline{3-4}
+                                                  					&      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
+                                                  					&      & \multicolumn{1}{c|}{P(Hawk) = q}             & \multicolumn{1}{c|}{P(Dove) = 1-q}          \\ \cline{1-4}
+\multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & P(Hawk) = p & \backslashbox[35mm]{(V-D)/2}{(V-D)/2} & \backslashbox[35mm]{V}{0}          \\ \cline{2-4}
+\multicolumn{1}{|l|}{}                            					& P(Dove) = 1-p & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
+\end{tabular}
+\end{table}
+
+
+
+
 
 \section{Which social dilemma?}
 

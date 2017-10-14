@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  14 OCT 2017 09:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  14 OCT 2017 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -577,23 +577,31 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
+) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip55
+\enit@outerparindent=\dimen129
+\enit@toks=\toks24
+\enit@inbox=\box33
+\enitdp@description=\count99
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 37.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 39.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -632,17 +640,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count99
-\scratchdimen=\dimen129
-\scratchbox=\box33
-\nofMPsegments=\count100
-\nofMParguments=\count101
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count102
-\MPscratchDim=\dimen130
-\MPnumerator=\count103
-\makeMPintoPDFobject=\count104
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count100
+\scratchdimen=\dimen130
+\scratchbox=\box34
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen131
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -694,54 +702,62 @@ e
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 67.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
-
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 67.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 67.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 72.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 72.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 72.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 69.
+(Font)              <10.95> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 69.
+(Font)              <8> on input line 72.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 69.
+(Font)              <6> on input line 72.
  [1] (./main.bbl) [2] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 4602 strings out of 493029
- 62398 string characters out of 6136234
- 142785 words of memory out of 5000000
- 8001 multiletter control sequences out of 15000+600000
+ 4895 strings out of 493029
+ 67331 string characters out of 6136234
+ 152976 words of memory out of 5000000
+ 8287 multiletter control sequences out of 15000+600000
  52369 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,15n,43p,257b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,15n,43p,413b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.
-enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (3 pages, 173301 bytes).
+enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on main.pdf (3 pages, 179067 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
