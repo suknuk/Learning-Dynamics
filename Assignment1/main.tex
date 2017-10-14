@@ -17,7 +17,10 @@
 
 \usepackage{multirow}
 \usepackage{slashbox} % Defines \backslashbox{..}{..}
+\usepackage{adjustbox}
 
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
 
 
 \fancypagestyle{plain}{%
@@ -57,21 +60,29 @@
 
 \section{The Hawk-Dove game}
 
+The Hawk-Dove game was first formulated by John Maynard Smith and Georg Prince in 1973 \cite{MaynardSmith1973} and the resulting payoff matrix can bee seen in \ref{tab-HawkDoveOriginal}.
+
 \begin{table}[H]
 \centering
-\caption{My caption}
-\label{my-label}
+\caption{Hawk-Dove Payoff Matrix}
+\label{tab-HawkDoveOriginal}
 \begin{tabular}{ll|l|l|}
 \cline{3-4}
-                                                  &      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
-                                                  &      & \multicolumn{1}{c|}{Hawk}             & \multicolumn{1}{c|}{Dove}          \\ \cline{1-4}
+                                                  					&      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
+                                                  					&      & \multicolumn{1}{c|}{Hawk}             & \multicolumn{1}{c|}{Dove}          \\ \cline{1-4}
 \multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & Hawk & \backslashbox[35mm]{(V-D)/2}{(V-D)/2} & \backslashbox[35mm]{V}{0}          \\ \cline{2-4}
-\multicolumn{1}{|l|}{}                            & Dove & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
+\multicolumn{1}{|l|}{}                            					& Dove & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
 \end{tabular}
 \end{table}
 
 \section{Which social dilemma?}
 
 \section{Sequential truel}
+
+%% Bibliography start
+\newpage
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
 
 \end{document}
