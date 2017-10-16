@@ -8,6 +8,11 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{pdflscape}
+
+
 \usepackage{array}
 
 \usepackage{color,array}
@@ -218,10 +223,22 @@ The pure strategy Nash Equilibria can now be determined by matching these result
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
+\begin{landscape}
 \section{Sequential truel}
 
-This scenario considers three persons A,B and C, each of whom has a gun with a single bullet. If alive, each person may shoot at any surviving person. The order in which the scenario is played out is A, then B and then C. The probability that player \textit{i} hits her target is denoted by $p_i$ where $0\leq p_i\leq 1$. Every player wishes to optimize her probability of survival
 
+This scenario considers three persons A,B and C, each of whom has a gun with a single bullet. If alive, each person may shoot at any surviving person. The order in which the scenario is played out is A, then B and then C. The probability that player \textit{i} hits their target is denoted by $p_i$ where $0\leq p_i\leq 1$. Every player wishes to optimize her probability of survival.
+For this exercise we further assume that a player has to target another living player and is not allowed to miss a shoot consciously. The resulting diagram of this game is shown in Figure \ref{fig-SeqTrualDiag}.
+
+\begin{figure}[h]
+\caption{Sequential truel diagram}
+\label{fig-SeqTrualDiag}
+\includegraphics[scale=0.65]{SequentialTruelDiagram.png}
+\end{figure}
+
+\end{landscape}
+
+The Diagram shows all possible actions of all players with all possible outcomes. The lowest level leaf indicates which player is still alive and with which probability - [0,0,1] indicates Player A and B being dead while Player C is alive with a probability of $p_a \times p_c$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Bibliography start
