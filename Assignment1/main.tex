@@ -80,30 +80,55 @@ and we assume that V,D,T $\geq$ 0.
 \centering
 \caption{Hawk-Dove Payoff Matrix}
 \label{tab-HawkDoveOriginal}
-\begin{tabular}{ll|l|l|}
-\cline{3-4}
-                                                  					&      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
-                                                  					&      & \multicolumn{1}{c|}{Hawk}             & \multicolumn{1}{c|}{Dove}          \\ \cline{1-4}
-\multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & Hawk & \backslashbox[35mm]{(V-D)/2}{(V-D)/2} & \backslashbox[35mm]{V}{0}          \\ \cline{2-4}
-\multicolumn{1}{|l|}{}                            					& Dove & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                       & \multicolumn{4}{c|}{Player Two}                                             \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                       & \multicolumn{2}{c|}{Hawk}              & \multicolumn{2}{c|}{Dove}          \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{Hawk} &         & \multicolumn{1}{r|}{(V-D)/2} &       & \multicolumn{1}{r|}{0}     \\
+\multicolumn{1}{c|}{}                            &                       & (V-D)/2 &                              & V     &                            \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{Dove} &         & \multicolumn{1}{r|}{V}       &       & \multicolumn{1}{r|}{V/2-T} \\
+\multicolumn{1}{c|}{}                            &                       & 0       &                              & V/2-T &                            \\ \hline
 \end{tabular}
 \end{table}
 
-In a mixed strategy game, we consider each player performing his action with a certain probability \textit{p}, which results in the following payoff matrix displayed in Table \ref{tab-HawkDoveMixedStrategy}.
+In a mixed strategy game, we consider each player performing his action with a certain probability \textit{p} or \textit{q}, which results in the following payoff matrix displayed in Table \ref{tab-HawkDoveMixedStrategy}.
 
 \begin{table}[H]
 \centering
 \caption{Hawk-Dove Probability Payoff Matrix}
 \label{tab-HawkDoveMixedStrategy}
-\begin{tabular}{ll|l|l|}
-\cline{3-4}
-                                                  					&      & \multicolumn{2}{c|}{Player Two}                                \\ \cline{3-4}
-                                                  					&      & \multicolumn{1}{c|}{P(Hawk) = q}             & \multicolumn{1}{c|}{P(Dove) = 1-q}          \\ \cline{1-4}
-\multicolumn{1}{|l|}{\multirow{2}{*}{Player One}} & P(Hawk) = p   & \backslashbox[35mm]{(V-D)/2}{(V-D)/2} & \backslashbox[35mm]{V}{0}          \\ \cline{2-4}
-\multicolumn{1}{|l|}{}                            					& P(Dove) = 1-p & \backslashbox[35mm]{0}{V}             & \backslashbox[35mm]{V/2-T}{V/2-T}  \\ \cline{1-4}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                             \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}         & \multicolumn{2}{c|}{P(Dove)=(1-q)} \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &         & \multicolumn{1}{r|}{(V-D)/2} &       & \multicolumn{1}{r|}{0}     \\
+\multicolumn{1}{c|}{}                            &                                & (V-D)/2 &                              & V     &                            \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &         & \multicolumn{1}{r|}{V}       &       & \multicolumn{1}{r|}{V/2-T} \\
+\multicolumn{1}{c|}{}                            &                                & 0       &                              & V/2-T &                            \\ \hline
 \end{tabular}
 \end{table}
 
+With this table we are able to calculate the payoff of the actions Hawk and Dove for Player One:
+
+Player One's expected payoff for the strategy Hawk(p) is:
+\[ q \times \frac{V-D}{2} + (1-q) \times V \]
+
+Player One's expected payoff for the strategy Dove(1-p) is:
+\[ q \times 0 + (1-q) \times ( \frac{V}{2} - T) = (1-q) \times ( \frac{V}{2} - T) \]
+
+To find the best response set of all mixed strategies, we need to set them equal:
+
+\[ q \times \frac{V-D}{2} + (1-q) \times V = (1-q) \times ( \frac{V}{2} - T) \]
+
+\[ \frac{qV}{2} - \frac{qD}{2} + V - qV = \frac{V}{2} - T - \frac{qV}{2} + qT \]
+
+\[ - \frac{qD}{2} + V = \frac{V}{2} - T + qT \]
+
+\[ \frac{V}{2} + T = \frac{qD}{2} + qT \]
+
+\[ \frac{V}{2} + T = q( \frac{D}{2} + T) \]
+
+\[ V + 2T = q( D + 2T) \]
+
+\[ q = \frac{V + 2T}{D + 2T} \]
 
 
 

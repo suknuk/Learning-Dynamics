@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  17 OCT 2017 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  19 OCT 2017 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,28 +745,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 77.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 77.
- [1]
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 156--163
+ [1] [2]
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 181--188
  [][] 
  []
 
 
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 171--178
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 196--203
  [][] 
  []
 
-[2] <images/SequentialTruelDiagram.png, id=23, 937.5025pt x 448.67625pt>
+[3] <images/SequentialTruelDiagram.png, id=26, 937.5025pt x 448.67625pt>
 File: images/SequentialTruelDiagram.png Graphic file (type png)
 
 <use images/SequentialTruelDiagram.png>
 Package pdftex.def Info: images/SequentialTruelDiagram.png used on input line 2
-36.
+61.
 (pdftex.def)             Requested size: 609.36942pt x 291.63611pt.
- [3
+ [4
 
- <./images/SequentialTruelDiagram.png>] [4
+ <./images/SequentialTruelDiagram.png>] [5
 
-] (./main.bbl) [5] (./main.aux) ) 
+] (./main.bbl) [6] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  4942 strings out of 493029
  68328 string characters out of 6136234
@@ -776,8 +776,8 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,17n,43p,436b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit
-.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc
-/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sh
+.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/
@@ -786,10 +786,10 @@ lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmsy10.pfb>
-Output written on main.pdf (6 pages, 244186 bytes).
+Output written on main.pdf (7 pages, 247368 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
