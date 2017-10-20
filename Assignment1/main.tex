@@ -24,6 +24,12 @@
 \usepackage{slashbox} % Defines \backslashbox{..}{..}
 \usepackage{adjustbox}
 
+%for circles
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
 %Includes "References" in the table of contents
 \usepackage[nottoc]{tocbibind}
 
@@ -114,7 +120,19 @@ Player One's expected payoff for the strategy Hawk(p) is:
 Player One's expected payoff for the strategy Dove(1-p) is:
 \[ q \times 0 + (1-q) \times ( \frac{V}{2} - T) = (1-q) \times ( \frac{V}{2} - T) \]
 
-To find the best response set of all mixed strategies, we need to set them equal:
+\hrule
+\vspace{6pt}
+
+The best response set is \{Hawk\} if:
+\[ q \times \frac{V-D}{2} + (1-q) \times V < (1-q) \times ( \frac{V}{2} - T) \]
+
+The best response set is \{Dove\} if:
+\[ q \times \frac{V-D}{2} + (1-q) \times V > (1-q) \times ( \frac{V}{2} - T) \]
+
+All the players mixed strategies are best responses if:
+\[ q \times \frac{V-D}{2} + (1-q) \times V = (1-q) \times ( \frac{V}{2} - T) \]
+
+As we are dealing with unknown variables, let's rewrite the equation for $q$:
 
 \[ q \times \frac{V-D}{2} + (1-q) \times V = (1-q) \times ( \frac{V}{2} - T) \]
 
@@ -130,6 +148,47 @@ To find the best response set of all mixed strategies, we need to set them equal
 
 \[ q = \frac{V + 2T}{D + 2T} \]
 
+To find any pure or mixed strategy of this scenario, we have to look at different values for the variables V,D and T. In this, we must respect the following constraints:
+
+\[ 0\leq q\leq 1 \quad\mathrm{and}\quad 0 \leq \frac{V + 2T}{D + 2T} \leq 1 \quad\mathrm{and}\quad V,T,D \geq 0 \]
+
+\subsection{V+2T = 0}
+
+This is only possible if $V=0$ and $T=0$ which gives $q = \frac{0}{D}$. We have to consider two cases: $D=0$ and $D>0$
+
+\subsubsection{D=0}
+
+Any pure or mixed strategy is a best response. This yields the mixed strategy NE $(p,q) \in \{(0\leq p \leq 1),(0\leq q \leq 1)  \}$.
+
+\begin{table}[H]
+\centering
+\caption{V=T=0, D>0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{0} &                                  \\ \hline
+\end{tabular}
+\end{table}
+
+\subsubsection{D>0}
+
+We have three pure strategy NE: \{Dove,Hawk\},\{Hawk,Hawk\} and \{Hawk,Dove\}. Solving for $q$ gives $q=0$ which yields the mixed strategy NE $(p,q) = (0,0)$. 
+
+\begin{table}[H]
+\centering
+\caption{V=T=0, D>0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{-D/2}        &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & -D/2        &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{0} &                                  \\ \hline
+\end{tabular}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -144,7 +203,7 @@ Player A is confronted with one of three social dilemma's - the corresponding pa
       \caption{Prisonners dilemma}
       \label{table-PrisonnersDilemma}
       \centering
-\begin{tabular}{l|l|l|}
+\begin{tabular}{l|c|c|}
   & C & D \\ \hline
 C & \backslashbox{2}{2} & \backslashbox{0}{5}  \\ \hline
 D & \backslashbox{5}{0} & \backslashbox{1}{1}  \\ \hline
@@ -154,7 +213,7 @@ D & \backslashbox{5}{0} & \backslashbox{1}{1}  \\ \hline
       \centering
       \caption{Stag-Hunt game}
       \label{table-Stag-Hunt}
-\begin{tabular}{l|l|l|}
+\begin{tabular}{l|c|c|}
   & C & D \\ \hline
 C & \backslashbox{5}{5} & \backslashbox{0}{2}  \\ \hline
 D & \backslashbox{2}{0} & \backslashbox{1}{1}  \\ \hline
@@ -164,7 +223,7 @@ D & \backslashbox{2}{0} & \backslashbox{1}{1}  \\ \hline
       \centering
         \caption{Snowdrift game}
         \label{table-SnowdriftGame}
-\begin{tabular}{l|l|l|}
+\begin{tabular}{l|c|c|}
   & C & D \\ \hline
 C & \backslashbox{2}{2} & \backslashbox{1}{5}  \\ \hline
 D & \backslashbox{5}{1} & \backslashbox{0}{0}  \\ \hline
