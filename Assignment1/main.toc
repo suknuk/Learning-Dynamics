@@ -3,6 +3,10 @@
 \contentsline {subsection}{\numberline {1.1}V+2T = 0}{2}
 \contentsline {subsubsection}{\numberline {1.1.1}D=0}{2}
 \contentsline {subsubsection}{\numberline {1.1.2}D>0}{3}
-\contentsline {section}{\numberline {2}Which social dilemma?}{4}
-\contentsline {section}{\numberline {3}Sequential truel}{5}
-\contentsline {section}{References}{7}
+\contentsline {subsection}{\numberline {1.2}T=0}{3}
+\contentsline {subsubsection}{\numberline {1.2.1}V=D}{3}
+\contentsline {subsubsection}{\numberline {1.2.2}V>D}{4}
+\contentsline {subsubsection}{\numberline {1.2.3}V<D}{4}
+\contentsline {section}{\numberline {2}Which social dilemma?}{5}
+\contentsline {section}{\numberline {3}Sequential truel}{6}
+\contentsline {section}{References}{8}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  20 OCT 2017 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  20 OCT 2017 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1005,31 +1005,32 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 78.
  [1] [2] [3]
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 240--247
+[4]
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 296--303
  [][] 
  []
 
 
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 255--262
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 311--318
  [][] 
  []
 
-[4] <images/SequentialTruelDiagram.png, id=34, 937.5025pt x 448.67625pt>
+[5] <images/SequentialTruelDiagram.png, id=37, 937.5025pt x 448.67625pt>
 File: images/SequentialTruelDiagram.png Graphic file (type png)
 
 <use images/SequentialTruelDiagram.png>
 Package pdftex.def Info: images/SequentialTruelDiagram.png used on input line 3
-20.
+76.
 (pdftex.def)             Requested size: 609.36942pt x 291.63611pt.
- [5
+ [6
 
- <./images/SequentialTruelDiagram.png>] [6
+ <./images/SequentialTruelDiagram.png>] [7
 
-] (./main.bbl) [7] (./main.aux) ) 
+] (./main.bbl) [8] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  14347 strings out of 493029
  273976 string characters out of 6136234
- 337785 words of memory out of 5000000
+ 337787 words of memory out of 5000000
  17528 multiletter control sequences out of 15000+600000
  55367 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1045,10 +1046,10 @@ lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (8 pages, 268470 bytes).
+Output written on main.pdf (9 pages, 271115 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
