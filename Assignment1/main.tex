@@ -62,6 +62,7 @@
 	{\Large raymond.lochner@ulb.ac.be}
 	\vfill
 	
+	\setcounter{tocdepth}{2} %hides subsubsections in TOC
 	\tableofcontents
 
 \vfill
@@ -159,6 +160,7 @@ Let's start by considering the case where $T=0$. This leaves gives us the follow
   \item $V=0$ with $D=0$
   \item $V=0$ with $D>0$
   \item $V>0$ with $D=0$
+  \item $V=D>0$
   \item $V>D>0$
   \item $D>V>0$
 \end{itemize}
@@ -217,6 +219,24 @@ We find the pure strategy NE \{Hawk,Hawk\}.
 \end{tabular}
 \end{table}
 
+\subsubsection{T=0, V=D>0}
+
+We find the pure strategy NE's: \{Hawk,Hawk\}, \{Hawk,Dove\} and \{Dove,Hawk\}.
+
+\begin{table}[H]
+\centering
+\caption{V=D>T=0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{V}} &             & \multicolumn{1}{r|}{V/2}         \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & V/2         &                                  \\ \hline
+\end{tabular}
+\end{table}
+
+
 \subsubsection{T=0, V>D>0}
 
 The action \{Hawk, Hawk\} is always positive as we have $V>D$. We find the pure strategy NE \{Hawk,Hawk\}.
@@ -264,60 +284,157 @@ All the players mixed strategies are best responses if:
 \[ - qD = -V \]
 \[q = \frac{V}{D} \]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{old}
+We find the mixed strategy NE $q=\frac{V}{D}$. 
 
-\subsection{V+2T = 0}
+\subsection{V = 0}
 
-This is only possible if $V=0$ and $T=0$ which gives $q = \frac{0}{D}$. We have to consider two cases: $D=0$ and $D>0$
+Setting $V=0$ gives us the following options:
+\begin{itemize}[noitemsep]
+  \item $D=0$ with $T=0$ (already covered)
+  \item $D=0$ with $T>0$
+  \item $D>0$ with $T=0$ (already covered)
+  \item $D=2T>0$
+  \item $D>2T>0$
+  \item $2T>D>0$
+\end{itemize}
 
+\subsubsection{V=0, D=0, T>0}
 
-\subsubsection{D>0}
-
-
-\subsection{T=0}
-
-With $T=0$ we get the following payoff matrix:
-
-
-
-We have the following scenarios: $V>D$,$V<D$ and $V=D$.
-
-\subsubsection{V=D}
-
-If we set $V=D$, we eliminate D from the payoff matrix:
+We find three pure strategy NE's: \{Hawk,Hawk\}, \{Hawk,Dove\} and \{Dove,Hawk\}.
 
 \begin{table}[H]
 \centering
-\caption{T=0}
+\caption{T>V=D=0}
 \begin{tabular}{cl|ll|ll|}
 \multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
 \multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
 \multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{\circled{0}} \\
-\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{V} &                                  \\ \cline{2-6} 
-\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{V}} &             & \multicolumn{1}{r|}{V/2}         \\
-\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & V/2         &                                  \\ \hline
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{-T}          \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & -T          &                                  \\ \hline
 \end{tabular}
 \end{table}
 
-With three pure strategy NE's: \{Dove,Hawk\},\{Hawk,Hawk\} and \{Hawk,Dove\}. To find mixed strategies, we need the expected payoff for both strategies:
+\subsubsection{V=0, D=2T>0}
 
-Player One's expected payoff for the strategy Hawk(p) is:
-\[ q \times 0 + (1-q) \times V = (1-q) \times V \]
+Setting $D=2T$ gives the following payoff matrix:
 
-Player One's expected payoff for the strategy Dove(1-p) is:
-\[ q \times 0 + (1-q) \times V/2 = (1-q) \times (V/2) \]
+\begin{table}[H]
+\centering
+\caption{D=2T>V=0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{-T}          &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & -T          &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{-T}          \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & -T          &                                  \\ \hline
+\end{tabular}
+\end{table}
+
+We find two pure strategy NE's: \{Hawk,Dove\} and \{Dove,Hawk\}. Player One's expected payoff for the strategy Hawk(p) is: $-qT$. Player One's expected payoff for the strategy Dove(1-p) is: $-T + qT$. All the players mixed strategies are best responses if:
+\[ -qT = -T + 2qT \]
+\[ 2qT - T = 0 \]
+\[ q = \frac{1}{2} \]
+
+We find the mixed strategy NE: $q=\frac{1}{2}$. 
+
+\subsubsection{V=0, D>2T>0}
+
+We find two pure strategy NE's: \{Hawk,Dove\} and \{Dove,Hawk\}. Because $D>2T$, the action \{Hawk,Hawk\} is more negative than \{Dove,Dove\}.
+
+\begin{table}[H]
+\centering
+\caption{D>2T>V=0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                                 \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                 & \multicolumn{2}{c|}{P(Dove)=(1-q)}             \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &             & \multicolumn{1}{r|}{-D/2}        &             & \multicolumn{1}{r|}{\circled{0}} \\
+\multicolumn{1}{c|}{}                            &                                & -D/2        &                                  & \circled{0} &                                  \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &             & \multicolumn{1}{r|}{\circled{0}} &             & \multicolumn{1}{r|}{-T}          \\
+\multicolumn{1}{c|}{}                            &                                & \circled{0} &                                  & -T          &                                  \\ \hline
+\end{tabular}
+\end{table}
+
+Player One's expected payoff for the strategy Hawk(p) is: $-q\frac{D}{2}$. 
+
+Player One's expected payoff for the strategy Dove(1-p) is: $-T + qT$. 
 
 All the players mixed strategies are best responses if:
-\[ (1-q) \times V = (1-q) \times (V/2) \]
+\[ -q\frac{D}{2} = -T + qT \]
+\[ qT + \frac{qD}{2} = T \]
+\[ 2qT + qD = 2T \]
+\[ q(2T + D) = 2T \]
+\[ q = \frac{2T}{2T + D} \]
+
+We find the mixed strategy NE: $q = \frac{2T}{2T + D}$. 
+
+\subsubsection{V=0, 2T>D>0}
+
+Same pure and mixed strategy NE as previous section. The only difference here is that the action \{Dove,Dove\} is more negative than \{Hawk,Hawk\}.
+
+\subsection{D = 0}
+
+Setting $D=0$ gives us the following options:
+\begin{itemize}[noitemsep]
+  \item $T=0$ with $V>0$ (already covered)
+  \item $T>0$ with $V=0$ (already covered)
+  \item $T=0$ with $V=0$ (already covered)
+  \item $T=\frac{V}{2}>0$
+  \item $T>\frac{V}{2} >0$
+  \item $\frac{V}{2} > T>0$
+\end{itemize}
+
+\subsubsection{D=0, T=V/2>0}
+
+We find the pure strategy NE \{Hawk,Hawk\}. 
+
+\begin{table}[H]
+\centering
+\caption{T=V/2>D=0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                           \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                     & \multicolumn{2}{c|}{P(Dove)=(1-q)}   \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &               & \multicolumn{1}{r|}{\circled{V/2}} &             & \multicolumn{1}{r|}{0} \\
+\multicolumn{1}{c|}{}                            &                                & \circled{V/2} &                                    & \circled{V} &                        \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &               & \multicolumn{1}{r|}{\circled{V}}   &             & \multicolumn{1}{r|}{0} \\
+\multicolumn{1}{c|}{}                            &                                & 0             &                                    & 0           &                        \\ \hline
+\end{tabular}
+\end{table}
+
+\subsubsection{D=0, T>V/2>0}
+
+We find the pure strategy NE \{Hawk,Hawk\}. The action \{Dove,Dove\} is always negative.
+
+\begin{table}[H]
+\centering
+\caption{T>V/2>D=0}
+\begin{tabular}{cl|ll|ll|}
+\multicolumn{1}{l}{}                             &                                & \multicolumn{4}{c|}{Player Two}                                                               \\ \cline{3-6} 
+\multicolumn{1}{l}{}                             &                                & \multicolumn{2}{c|}{P(Hawk)=q}                     & \multicolumn{2}{c|}{P(Dove)=(1-q)}       \\ \hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Player One}} & \multirow{2}{*}{P(Hawk)=p}     &               & \multicolumn{1}{r|}{\circled{V/2}} &             & \multicolumn{1}{r|}{0}     \\
+\multicolumn{1}{c|}{}                            &                                & \circled{V/2} &                                    & \circled{V} &                            \\ \cline{2-6} 
+\multicolumn{1}{c|}{}                            & \multirow{2}{*}{P(Dove)=(1-p)} &               & \multicolumn{1}{r|}{\circled{V}}   &             & \multicolumn{1}{r|}{V/2-T} \\
+\multicolumn{1}{c|}{}                            &                                & 0             &                                    & V/2-T       &                            \\ \hline
+\end{tabular}
+\end{table}
+
+\subsubsection{D=0, V/2>T>0}
+
+Same answer as previous configuration. Only difference is that the action \{Dove,Dove\} is always positive.
+
+\subsection{T>0, V>0, D>0}
+
+This configuration leaves us with the following options to consider:
+\begin{itemize}[noitemsep]
+  \item $T=\frac{V}{2}=\frac{D}{2}$
+  \item $T>\frac{V}{2}=\frac{D}{2}$
+  \item $T>\frac{V}{2}>\frac{D}{2}$
+  \item $T>\frac{D}{2}>\frac{V}{2}$
+  
+\end{itemize}
 
 
-
-\subsubsection{V>D}
-
-Not viable as
-
-\subsubsection{V<D}
 
 
 
