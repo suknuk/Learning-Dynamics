@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  22 OCT 2017 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  22 OCT 2017 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -856,19 +856,19 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 55.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -998,40 +998,68 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 84.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 84.
  [1] [2] [3]
-[4] [5] [6] [7]
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 489--496
+[4] [5] [6]
+
+Package xcolor Warning: Incompatible color definition on input line 453.
+
+
+Package xcolor Warning: Incompatible color definition on input line 455.
+
+
+Package xcolor Warning: Incompatible color definition on input line 466.
+
+
+Package xcolor Warning: Incompatible color definition on input line 467.
+
+
+Package xcolor Warning: Incompatible color definition on input line 468.
+
+[7]
+Overfull \hbox (11.50298pt too wide) in paragraph at lines 515--516
+\T1/lmr/m/n/10.95 We find two pure strat-egy NE's: {Hawk,Dove} and {Dove,Hawk}.
+ The ac-tions {Hawk,Hawk}
+ []
+
+[8]
+Overfull \hbox (5.11632pt too wide) in paragraph at lines 568--569
+\T1/lmr/m/n/10.95 We find two pure strat-egy NE's: {Hawk,Dove} and {Dove,Hawk}.
+ The ac-tions {Dove,Dove}
+ []
+
+[9] [10] [11] [12]
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 760--767
  [][] 
  []
 
 
-Overfull \hbox (55.94736pt too wide) in paragraph at lines 504--511
+Overfull \hbox (55.94736pt too wide) in paragraph at lines 775--782
  [][] 
  []
 
-[8] <images/SequentialTruelDiagram.png, id=47, 937.5025pt x 448.67625pt>
+[13] <images/SequentialTruelDiagram.png, id=63, 937.5025pt x 448.67625pt>
 File: images/SequentialTruelDiagram.png Graphic file (type png)
 
 <use images/SequentialTruelDiagram.png>
-Package pdftex.def Info: images/SequentialTruelDiagram.png used on input line 5
-69.
+Package pdftex.def Info: images/SequentialTruelDiagram.png used on input line 8
+40.
 (pdftex.def)             Requested size: 609.36942pt x 291.63611pt.
- [9
+ [14
 
- <./images/SequentialTruelDiagram.png>] [10
+ <./images/SequentialTruelDiagram.png>] [15
 
-] (./main.bbl) [11] (./main.aux) ) 
+] (./main.bbl) [16] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 14349 strings out of 493029
- 274040 string characters out of 6136234
- 337790 words of memory out of 5000000
- 17530 multiletter control sequences out of 15000+600000
+ 14350 strings out of 493029
+ 274053 string characters out of 6136234
+ 340812 words of memory out of 5000000
+ 17531 multiletter control sequences out of 15000+600000
  55367 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,56p,437b,703s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1046,10 +1074,10 @@ c/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share
 fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (12 pages, 288299 bytes).
+Output written on main.pdf (17 pages, 302636 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
