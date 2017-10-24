@@ -58,12 +58,17 @@ public class Game {
 				
 				if (this.imitationMethod == ImitationMethod.HIGHEST_EARNER) {
 					Player maxEarner = neighbors.get(0);
+					System.out.println("start new payoff with :" + maxEarner.getPayoff());
 					for (Player p : neighbors) {
 						if (p.getPayoff() > maxEarner.getPayoff()) {
 							maxEarner = p;
+							System.out.println("New high payoff: " + p.getPayoff());
 						}
 					}
 					tmpMap[i][j].setStrategy(maxEarner.getStrategy());
+				}
+				else if (this.imitationMethod == ImitationMethod.REPLICATOR_RULE) {
+					
 				}
 			}
 		}
