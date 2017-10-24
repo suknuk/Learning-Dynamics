@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 import com.github.suknuk.learningDynamics.GameInfo.Strategy;
 
 public class DrawingClass {
-	public static void createImage(Game game){
+	public static void createImage(Game game, String fileName){
 		
 		int scale = 5;
 		
@@ -27,7 +27,7 @@ public class DrawingClass {
             BufferedImage img = new BufferedImage( 
                 game.x*scale, game.y*scale, BufferedImage.TYPE_INT_RGB );
 
-            File f = new File("MyFile.png");
+            File f = new File(fileName);
 
             for (int x = 0; x < game.x; x++) {
             	for (int y = 0; y < game.y; y++) {

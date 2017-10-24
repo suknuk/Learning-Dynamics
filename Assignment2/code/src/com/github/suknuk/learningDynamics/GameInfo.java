@@ -13,6 +13,10 @@ public class GameInfo {
 		MOORE, VON_NEUMANN;
 	}
 	
+	public static enum ImitationMethod {
+		HIGHEST_EARNER, REPLICATOR_RULE;
+	}
+	
 	int R=0,S=0,T=0,P=0;
 	
 	public GameInfo(GameType gameType){
