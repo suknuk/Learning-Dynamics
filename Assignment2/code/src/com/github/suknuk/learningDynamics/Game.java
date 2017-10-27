@@ -1,6 +1,7 @@
 package com.github.suknuk.learningDynamics;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 import com.github.suknuk.learningDynamics.GameInfo.GameType;
 import com.github.suknuk.learningDynamics.GameInfo.ImitationMethod;
@@ -8,6 +9,8 @@ import com.github.suknuk.learningDynamics.GameInfo.Neighborhood;
 
 public class Game {
 
+	public static Random random = new Random();
+	
 	int x;
 	int y;
 	
@@ -55,19 +58,30 @@ public class Game {
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
 				ArrayList<Player> neighbors = this.getNeighbors(i, j);
-				
+					
 				if (this.imitationMethod == ImitationMethod.HIGHEST_EARNER) {
-					Player maxEarner = neighbors.get(0);
-					System.out.println("start new payoff with :" + maxEarner.getPayoff());
+					Player maxEarner = map[i][j];
 					for (Player p : neighbors) {
 						if (p.getPayoff() > maxEarner.getPayoff()) {
 							maxEarner = p;
-							System.out.println("New high payoff: " + p.getPayoff());
 						}
 					}
 					tmpMap[i][j].setStrategy(maxEarner.getStrategy());
 				}
 				else if (this.imitationMethod == ImitationMethod.REPLICATOR_RULE) {
+					int randomPlayer = random.nextInt(neighbors.size());
+					
+					double Wi = map[i][j].getPayoff();
+					double Wj = neighbors.get(randomPlayer).getPayoff();
+					double N = neighbors.size();
+					double max = Math.max(gameInfo.P, Math.max(gameInfo.R, Math.max(gameInfo.T, gameInfo.S)));
+					double min = Math.min(gameInfo.P, Math.min(gameInfo.R, Math.min(gameInfo.T, gameInfo.S)));
+					
+					double Pij = (1 + (Wj-Wi)/(N*(max-min))) / 2;
+					
+					System.out.println(Wi + " " + Wj + " " + N + " " + max + " " + min);
+					System.out.println(Pij);
+					
 					
 				}
 			}

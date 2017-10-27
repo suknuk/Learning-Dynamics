@@ -33,9 +33,9 @@ public class DrawingClass {
             	for (int y = 0; y < game.y; y++) {
             		int color = 0;
             		if (game.map[x][y].getStrategy() == Strategy.ACTION_ONE){
-            			color = blueInt;
-            		} else if (game.map[x][y].getStrategy() == Strategy.ACTION_TWO){
             			color = redInt;
+            		} else if (game.map[x][y].getStrategy() == Strategy.ACTION_TWO){
+            			color = blueInt;
             		}
             		
             		for (int i = 0; i < scale; i++) {

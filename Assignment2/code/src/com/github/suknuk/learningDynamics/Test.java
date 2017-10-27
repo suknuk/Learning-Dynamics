@@ -9,10 +9,10 @@ public class Test {
 	public static void main(String[] args) {
 		System.out.println("Hello");
 
-		Game myGame = new Game(4,4, GameType.PRISONERS_DILEMMA, Neighborhood.MOORE, ImitationMethod.HIGHEST_EARNER);
+		Game myGame = new Game(50,50, GameType.PRISONERS_DILEMMA, Neighborhood.MOORE, ImitationMethod.REPLICATOR_RULE);
 		
-		for (int i = 0; i < 50; i++){
-			DrawingClass.createImage(myGame, "Round"+String.format("%02d", myGame.playedRounds)+".png");
+		for (int i = 0; i < 5; i++){
+			//DrawingClass.createImage(myGame, "Round"+String.format("%02d", myGame.playedRounds)+".png");
 			myGame.playRounds(1);
 		}
 		
