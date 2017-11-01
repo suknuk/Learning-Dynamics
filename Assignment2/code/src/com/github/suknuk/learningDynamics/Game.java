@@ -81,11 +81,6 @@ public class Game {
 					double Pij = (1 + (Wj-Wi)/(N*(max-min))) / 2;
 					double rndDouble = random.nextDouble();
 					
-					/*
-					System.out.println(Wi + " " + Wj + " " + N + " " + max + " " + min);
-					System.out.println(Pij);
-					System.out.println(rndDouble);
-					*/
 					if (rndDouble <= Pij) {
 						tmpMap[i][j].setStrategy(neighbors.get(randomPlayer).getStrategy());
 					}

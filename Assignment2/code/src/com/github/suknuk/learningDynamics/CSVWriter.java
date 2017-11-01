@@ -3,30 +3,40 @@ package com.github.suknuk.learningDynamics;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.List;
 
 public class CSVWriter {
 	
 	private PrintWriter pw;
 	private StringBuilder sb;
 	
-	public CSVWriter(){
+	private int simulations;
+	
+	public CSVWriter(int simulations){
+		this.simulations = simulations;
 		try {
 			pw = new PrintWriter(new File("results.csv"));
 			sb = new StringBuilder();
 			
 	        sb.append("round");
-	        sb.append(',');
-	        sb.append("cooperation");
+	        
+	        for (int i = 0; i < this.simulations; i++) {
+		        sb.append(',');
+		        sb.append("cooperation"+i);
+	        }
+	        
 	        sb.append('\n');
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
 	
-	public void appendEntry(int round, int level) {
+	public void appendEntries(int round, List<Integer> level) {
         sb.append(round);
-        sb.append(',');
-        sb.append(level);
+        for (Integer i:level) {
+            sb.append(',');
+            sb.append(i);
+        }
         sb.append('\n');
 	}
 	

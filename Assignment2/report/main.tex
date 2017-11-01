@@ -2,7 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=3.cm]{geometry}
+\usepackage[margin=2.cm]{geometry}
 \usepackage{fancyhdr}
 
 \usepackage[T1]{fontenc}
@@ -25,11 +25,8 @@
 
 \usepackage{varwidth} %for lists next to each other
 
-
-%for circles
-\usepackage{tikz}
-\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+%for subfigure
+\usepackage{subcaption}
 
 
 %Includes "References" in the table of contents
@@ -73,7 +70,252 @@
 \end{titlepage}
 
 \newpage
-\section{Part One}
+
+\section*{Preliminary information}
+
+Each simulation was being executed 100 times.
+For the visualizations:
+\begin{itemize}[noitemsep]
+  \item Red signifies the action \textit{cooperation}
+  \item Blue signifies the action \textit{defection}
+\end{itemize}
+
+Graphic displays one specific game, Graph shows information of all games
+
+
+
+\section{Part One - Spatial Prisoners Dilemma}
+
+\subsection{Moore Neighborhood}
+
+\newpage
+
+
+%%%% 4x4
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{4x4}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.16\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_4x4_t50}
+  \caption{t=50}
+\end{subfigure}
+\caption{Prisoners Dilemma, Moore, 4x4}
+\end{figure}
+
+\begin{figure}[H]
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore4x4}
+\end{subfigure}
+
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore4x4}
+\end{subfigure}
+
+\end{figure}
+
+	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+
+\begin{landscape}
+
+\newpage
+
+%%%% 8x8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{8x8}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t50}
+  \caption{t=50}
+\end{subfigure}
+\caption{Prisoners Dilemma, Moore, 8x8}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.95\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore8x8}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+\end{subfigure}%
+\end{figure}
+
+
+\newpage
+
+%%%% 12x12
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{12x12}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.26\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t50}
+  \caption{t=50}
+\end{subfigure}
+\caption{Prisoners Dilemma, Moore, 12x12}
+\end{figure}
+
+\end{landscape}
+
+%%%% 20x20
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{20x20}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t05}
+  \caption{t=5}
+\end{subfigure}
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t50}
+  \caption{t=50}
+\end{subfigure}
+\caption{Prisoners Dilemma, Moore, 20x20}
+\end{figure}
+
+
+
+%%%% 50x50
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{50x50}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t05}
+  \caption{t=5}
+\end{subfigure}
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.33\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t50}
+  \caption{t=50}
+\end{subfigure}
+\caption{Prisoners Dilemma, Moore, 50x50}
+\end{figure}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
