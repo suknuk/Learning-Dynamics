@@ -6,6 +6,7 @@ import java.util.Random;
 import com.github.suknuk.learningDynamics.GameInfo.GameType;
 import com.github.suknuk.learningDynamics.GameInfo.ImitationMethod;
 import com.github.suknuk.learningDynamics.GameInfo.Neighborhood;
+import com.github.suknuk.learningDynamics.GameInfo.Strategy;
 
 public class Game {
 
@@ -78,16 +79,37 @@ public class Game {
 					double min = Math.min(gameInfo.P, Math.min(gameInfo.R, Math.min(gameInfo.T, gameInfo.S)));
 					
 					double Pij = (1 + (Wj-Wi)/(N*(max-min))) / 2;
+					double rndDouble = random.nextDouble();
 					
+					/*
 					System.out.println(Wi + " " + Wj + " " + N + " " + max + " " + min);
 					System.out.println(Pij);
-					
+					System.out.println(rndDouble);
+					*/
+					if (rndDouble <= Pij) {
+						tmpMap[i][j].setStrategy(neighbors.get(randomPlayer).getStrategy());
+					}
 					
 				}
 			}
 		}
 		
 		this.map = tmpMap;
+	}
+	
+	public int getActionLevel(Strategy strategy){
+		
+		int counter = 0;
+		
+		for (int i = 0; i < x; i++){
+			for (int j = 0; j < y; j++) {
+				if (map[i][j].getStrategy() == strategy){
+					counter++;
+				}
+			}
+		}
+		
+		return counter;
 	}
 	
 	private ArrayList<Player> getNeighbors(int px, int py) {
