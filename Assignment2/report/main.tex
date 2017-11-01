@@ -1,0 +1,92 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=3.cm]{geometry}
+\usepackage{fancyhdr}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{pdflscape}
+
+
+\usepackage{array}
+
+\usepackage{color,array}
+
+\definecolor{mygray}{gray}{0.6} %custom color for text
+
+\usepackage{float}
+\usepackage[table,xcdraw]{xcolor}
+
+
+\usepackage{varwidth} %for lists next to each other
+
+
+%for circles
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
+
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
+
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+\fancypagestyle{plain}{%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyhf{}%
+  \fancyfoot[L]{\footnotesize Raymond Lochner}
+  \fancyfoot[C]{\footnotesize November 2017 - Université libre de Bruxelles}%
+  \fancyfoot[R]{\thepage}
+}
+\pagestyle{plain}
+
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	{\scshape\LARGE Université libre de Bruxelles \par}
+	\vspace{1cm}
+	{\scshape\Large INFO-F-409 - Learning Dynamics\par}
+	\vspace{1.5cm}
+	{\huge\bfseries {Assignment Two\par}}
+	\vspace{2cm}
+	{\Large Raymond Lochner - 000443637\par}
+	\vspace{0.5cm}
+	{\Large raymond.lochner@ulb.ac.be}
+	\vfill
+	
+	\setcounter{tocdepth}{2} %hides subsubsections in TOC
+	\tableofcontents
+
+\vfill
+% Bottom of the page
+	{\large \today \par}
+\end{titlepage}
+
+\newpage
+\section{Part One}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage
+\section{Part Two}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Part Three}
+
+\end{document}
