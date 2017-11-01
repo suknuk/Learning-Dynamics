@@ -10,7 +10,7 @@ public class ExecutingClass {
 	public static void main(String[] args) {
 		System.out.println("Hello");
 
-		Game myGame = new Game(50,50, GameType.SNOWDRIFT, Neighborhood.VON_NEUMANN, ImitationMethod.REPLICATOR_RULE);
+		Game myGame = new Game(50,50, GameType.SNOWDRIFT, Neighborhood.MOORE, ImitationMethod.REPLICATOR_RULE);
 		CSVWriter writer = new CSVWriter();
 		
 		for (int i = 0; i <= 50; i++){
