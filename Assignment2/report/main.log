@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 NOV 2017 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  2 NOV 2017 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,75 +769,79 @@ File: images/PDMoore4x4.png Graphic file (type png)
 <use images/PDMoore4x4.png>
 Package pdftex.def Info: images/PDMoore4x4.png used on input line 134.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
-File: images/PDMoore4x4.png Graphic file (type png)
- <use images/PDMoore4x4.png>
-Package pdftex.def Info: images/PDMoore4x4.png used on input line 138.
+
+<images/PDMoore4x4HG.png, id=25, 1485.55pt x 834.11626pt>
+File: images/PDMoore4x4HG.png Graphic file (type png)
+
+<use images/PDMoore4x4HG.png>
+Package pdftex.def Info: images/PDMoore4x4HG.png used on input line 138.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
  [2 <./images/PRISONERS_DILEMMA_MOORE_4x4_t00.png (PNG copy)> <./images/PRISONE
 RS_DILEMMA_MOORE_4x4_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_4x4_
 t05.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_4x4_t10.png (PNG copy)> <
 ./images/PRISONERS_DILEMMA_MOORE_4x4_t20.png (PNG copy)> <./images/PRISONERS_DI
-LEMMA_MOORE_4x4_t50.png (PNG copy)> <./images/PDMoore4x4.png>]
-<images/PRISONERS_DILEMMA_MOORE_8x8_t00.png, id=29, 40.15pt x 40.15pt>
+LEMMA_MOORE_4x4_t50.png (PNG copy)> <./images/PDMoore4x4.png> <./images/PDMoore
+4x4HG.png>]
+<images/PRISONERS_DILEMMA_MOORE_8x8_t00.png, id=32, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t00.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t00.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t00.png used on inp
-ut line 155.
+ut line 160.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PRISONERS_DILEMMA_MOORE_8x8_t01.png, id=30, 40.15pt x 40.15pt>
+<images/PRISONERS_DILEMMA_MOORE_8x8_t01.png, id=33, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t01.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t01.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t01.png used on inp
-ut line 160.
+ut line 165.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PRISONERS_DILEMMA_MOORE_8x8_t05.png, id=31, 40.15pt x 40.15pt>
+<images/PRISONERS_DILEMMA_MOORE_8x8_t05.png, id=34, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t05.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t05.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t05.png used on inp
-ut line 165.
+ut line 170.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PRISONERS_DILEMMA_MOORE_8x8_t10.png, id=32, 40.15pt x 40.15pt>
+<images/PRISONERS_DILEMMA_MOORE_8x8_t10.png, id=35, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t10.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t10.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t10.png used on inp
-ut line 170.
+ut line 175.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PRISONERS_DILEMMA_MOORE_8x8_t20.png, id=33, 40.15pt x 40.15pt>
+<images/PRISONERS_DILEMMA_MOORE_8x8_t20.png, id=36, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t20.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t20.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t20.png used on inp
-ut line 175.
+ut line 180.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PRISONERS_DILEMMA_MOORE_8x8_t50.png, id=34, 40.15pt x 40.15pt>
+<images/PRISONERS_DILEMMA_MOORE_8x8_t50.png, id=37, 40.15pt x 40.15pt>
 File: images/PRISONERS_DILEMMA_MOORE_8x8_t50.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_8x8_t50.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_8x8_t50.png used on inp
-ut line 180.
+ut line 185.
 (pdftex.def)             Requested size: 69.65346pt x 69.65578pt.
 
-<images/PDMoore8x8.png, id=35, 1485.55pt x 834.11626pt>
+<images/PDMoore8x8.png, id=38, 1485.55pt x 834.11626pt>
 File: images/PDMoore8x8.png Graphic file (type png)
 
 <use images/PDMoore8x8.png>
-Package pdftex.def Info: images/PDMoore8x8.png used on input line 189.
+Package pdftex.def Info: images/PDMoore8x8.png used on input line 194.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
 
-<images/PDMoore8x8HG.png, id=36, 1485.55pt x 834.11626pt>
+<images/PDMoore8x8HG.png, id=39, 1485.55pt x 834.11626pt>
 File: images/PDMoore8x8HG.png Graphic file (type png)
 
 <use images/PDMoore8x8HG.png>
-Package pdftex.def Info: images/PDMoore8x8HG.png used on input line 193.
+Package pdftex.def Info: images/PDMoore8x8HG.png used on input line 198.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
  [3 <./images/PRISONERS_DILEMMA_MOORE_8x8_t00.png (PNG copy)> <./images/PRISONE
 RS_DILEMMA_MOORE_8x8_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_8x8_
@@ -845,66 +849,66 @@ t05.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_8x8_t10.png (PNG copy)> <
 ./images/PRISONERS_DILEMMA_MOORE_8x8_t20.png (PNG copy)> <./images/PRISONERS_DI
 LEMMA_MOORE_8x8_t50.png (PNG copy)> <./images/PDMoore8x8.png> <./images/PDMoore
 8x8HG.png>]
-<images/PRISONERS_DILEMMA_MOORE_12x12_t00.png, id=44, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t00.png, id=46, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t00.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t00.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t00.png used on i
-nput line 217.
+nput line 222.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PRISONERS_DILEMMA_MOORE_12x12_t01.png, id=45, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t01.png, id=47, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t01.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t01.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t01.png used on i
-nput line 222.
+nput line 227.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PRISONERS_DILEMMA_MOORE_12x12_t05.png, id=46, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t05.png, id=48, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t05.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t05.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t05.png used on i
-nput line 227.
+nput line 232.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PRISONERS_DILEMMA_MOORE_12x12_t10.png, id=47, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t10.png, id=49, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t10.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t10.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t10.png used on i
-nput line 232.
+nput line 237.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PRISONERS_DILEMMA_MOORE_12x12_t20.png, id=48, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t20.png, id=50, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t20.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t20.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t20.png used on i
-nput line 237.
+nput line 242.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PRISONERS_DILEMMA_MOORE_12x12_t50.png, id=49, 60.225pt x 60.225pt>
+<images/PRISONERS_DILEMMA_MOORE_12x12_t50.png, id=51, 60.225pt x 60.225pt>
 File: images/PRISONERS_DILEMMA_MOORE_12x12_t50.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_12x12_t50.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_12x12_t50.png used on i
-nput line 242.
+nput line 247.
 (pdftex.def)             Requested size: 69.65346pt x 69.65977pt.
 
-<images/PDMoore12x12.png, id=50, 1485.55pt x 834.11626pt>
+<images/PDMoore12x12.png, id=52, 1485.55pt x 834.11626pt>
 File: images/PDMoore12x12.png Graphic file (type png)
 
 <use images/PDMoore12x12.png>
-Package pdftex.def Info: images/PDMoore12x12.png used on input line 251.
+Package pdftex.def Info: images/PDMoore12x12.png used on input line 256.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
 
-<images/PDMoore12x12HG.png, id=51, 1485.55pt x 834.11626pt>
+<images/PDMoore12x12HG.png, id=53, 1485.55pt x 834.11626pt>
 File: images/PDMoore12x12HG.png Graphic file (type png)
 
 <use images/PDMoore12x12HG.png>
-Package pdftex.def Info: images/PDMoore12x12HG.png used on input line 255.
+Package pdftex.def Info: images/PDMoore12x12HG.png used on input line 260.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
  [4 <./images/PRISONERS_DILEMMA_MOORE_12x12_t00.png (PNG copy)> <./images/PRISO
 NERS_DILEMMA_MOORE_12x12_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_
@@ -912,66 +916,66 @@ NERS_DILEMMA_MOORE_12x12_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_
 copy)> <./images/PRISONERS_DILEMMA_MOORE_12x12_t20.png (PNG copy)> <./images/PR
 ISONERS_DILEMMA_MOORE_12x12_t50.png (PNG copy)> <./images/PDMoore12x12.png> <./
 images/PDMoore12x12HG.png>]
-<images/PRISONERS_DILEMMA_MOORE_20x20_t00.png, id=57, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t00.png, id=59, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t00.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t00.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t00.png used on i
-nput line 278.
+nput line 283.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PRISONERS_DILEMMA_MOORE_20x20_t01.png, id=58, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t01.png, id=60, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t01.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t01.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t01.png used on i
-nput line 283.
+nput line 288.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PRISONERS_DILEMMA_MOORE_20x20_t05.png, id=59, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t05.png, id=61, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t05.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t05.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t05.png used on i
-nput line 288.
+nput line 293.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PRISONERS_DILEMMA_MOORE_20x20_t10.png, id=60, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t10.png, id=62, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t10.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t10.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t10.png used on i
-nput line 293.
+nput line 298.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PRISONERS_DILEMMA_MOORE_20x20_t20.png, id=61, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t20.png, id=63, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t20.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t20.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t20.png used on i
-nput line 298.
+nput line 303.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PRISONERS_DILEMMA_MOORE_20x20_t50.png, id=62, 100.375pt x 100.375pt>
+<images/PRISONERS_DILEMMA_MOORE_20x20_t50.png, id=64, 100.375pt x 100.375pt>
 File: images/PRISONERS_DILEMMA_MOORE_20x20_t50.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_20x20_t50.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_20x20_t50.png used on i
-nput line 303.
+nput line 308.
 (pdftex.def)             Requested size: 69.65346pt x 69.65855pt.
 
-<images/PDMoore20x20.png, id=63, 1485.55pt x 834.11626pt>
+<images/PDMoore20x20.png, id=65, 1485.55pt x 834.11626pt>
 File: images/PDMoore20x20.png Graphic file (type png)
 
 <use images/PDMoore20x20.png>
-Package pdftex.def Info: images/PDMoore20x20.png used on input line 311.
+Package pdftex.def Info: images/PDMoore20x20.png used on input line 316.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
 
-<images/PDMoore20x20HG.png, id=64, 1485.55pt x 834.11626pt>
+<images/PDMoore20x20HG.png, id=66, 1485.55pt x 834.11626pt>
 File: images/PDMoore20x20HG.png Graphic file (type png)
 
 <use images/PDMoore20x20HG.png>
-Package pdftex.def Info: images/PDMoore20x20HG.png used on input line 315.
+Package pdftex.def Info: images/PDMoore20x20HG.png used on input line 320.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
  [5 <./images/PRISONERS_DILEMMA_MOORE_20x20_t00.png (PNG copy)> <./images/PRISO
 NERS_DILEMMA_MOORE_20x20_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_
@@ -979,94 +983,191 @@ NERS_DILEMMA_MOORE_20x20_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_
 copy)> <./images/PRISONERS_DILEMMA_MOORE_20x20_t20.png (PNG copy)> <./images/PR
 ISONERS_DILEMMA_MOORE_20x20_t50.png (PNG copy)> <./images/PDMoore20x20.png> <./
 images/PDMoore20x20HG.png>]
-<images/PRISONERS_DILEMMA_MOORE_50x50_t00.png, id=70, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t00.png, id=72, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t00.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t00.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t00.png used on i
-nput line 336.
+nput line 341.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PRISONERS_DILEMMA_MOORE_50x50_t01.png, id=71, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t01.png, id=73, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t01.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t01.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t01.png used on i
-nput line 341.
+nput line 346.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PRISONERS_DILEMMA_MOORE_50x50_t05.png, id=72, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t05.png, id=74, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t05.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t05.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t05.png used on i
-nput line 346.
+nput line 351.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PRISONERS_DILEMMA_MOORE_50x50_t10.png, id=73, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t10.png, id=75, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t10.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t10.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t10.png used on i
-nput line 351.
+nput line 356.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PRISONERS_DILEMMA_MOORE_50x50_t20.png, id=74, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t20.png, id=76, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t20.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t20.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t20.png used on i
-nput line 356.
+nput line 361.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PRISONERS_DILEMMA_MOORE_50x50_t50.png, id=75, 250.9375pt x 250.9375pt>
+<images/PRISONERS_DILEMMA_MOORE_50x50_t50.png, id=77, 250.9375pt x 250.9375pt>
 File: images/PRISONERS_DILEMMA_MOORE_50x50_t50.png Graphic file (type png)
 
 <use images/PRISONERS_DILEMMA_MOORE_50x50_t50.png>
 Package pdftex.def Info: images/PRISONERS_DILEMMA_MOORE_50x50_t50.png used on i
-nput line 361.
+nput line 366.
 (pdftex.def)             Requested size: 69.65346pt x 69.6532pt.
 
-<images/PDMoore50x50.png, id=76, 1485.55pt x 834.11626pt>
+<images/PDMoore50x50.png, id=78, 1485.55pt x 834.11626pt>
 File: images/PDMoore50x50.png Graphic file (type png)
 
 <use images/PDMoore50x50.png>
-Package pdftex.def Info: images/PDMoore50x50.png used on input line 369.
+Package pdftex.def Info: images/PDMoore50x50.png used on input line 374.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
 
-<images/PDMoore50x50HG.png, id=77, 1485.55pt x 834.11626pt>
+<images/PDMoore50x50HG.png, id=79, 1485.55pt x 834.11626pt>
 File: images/PDMoore50x50HG.png Graphic file (type png)
 
 <use images/PDMoore50x50HG.png>
-Package pdftex.def Info: images/PDMoore50x50HG.png used on input line 373.
+Package pdftex.def Info: images/PDMoore50x50HG.png used on input line 378.
 (pdftex.def)             Requested size: 362.77264pt x 203.69208pt.
  [6 <./images/PRISONERS_DILEMMA_MOORE_50x50_t00.png (PNG copy)> <./images/PRISO
 NERS_DILEMMA_MOORE_50x50_t01.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_
 50x50_t05.png (PNG copy)> <./images/PRISONERS_DILEMMA_MOORE_50x50_t10.png (PNG 
 copy)> <./images/PRISONERS_DILEMMA_MOORE_50x50_t20.png (PNG copy)> <./images/PR
 ISONERS_DILEMMA_MOORE_50x50_t50.png (PNG copy)> <./images/PDMoore50x50.png> <./
-images/PDMoore50x50HG.png>] [7] [8] (./main.aux) ) 
+images/PDMoore50x50HG.png>]
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00.png, id=86, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00.png use
+d on input line 401.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01.png, id=87, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01.png use
+d on input line 406.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t05.png, id=88, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t05.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t05.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t05.png use
+d on input line 411.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t10.png, id=89, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t10.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t10.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t10.png use
+d on input line 416.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t20.png, id=90, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t20.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t20.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t20.png use
+d on input line 421.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png, id=91, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png use
+d on input line 426.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png, id=92, 250.9375pt x 250.93
+75pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png Graphic file (type png
+)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png use
+d on input line 431.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png, id=93, 250.9375pt x 250.9
+375pt>
+File: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png Graphic file (type pn
+g)
+ <use images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png>
+Package pdftex.def Info: images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png us
+ed on input line 436.
+(pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
+
+<images/PDVonNeumann50x50.png, id=94, 1485.55pt x 834.11626pt>
+File: images/PDVonNeumann50x50.png Graphic file (type png)
+
+<use images/PDVonNeumann50x50.png>
+Package pdftex.def Info: images/PDVonNeumann50x50.png used on input line 446.
+(pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
+
+<images/PDVonNeumann50x50HG.png, id=95, 1485.55pt x 834.11626pt>
+File: images/PDVonNeumann50x50HG.png Graphic file (type png)
+
+<use images/PDVonNeumann50x50HG.png>
+Package pdftex.def Info: images/PDVonNeumann50x50HG.png used on input line 450.
+
+(pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
+ [7 <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00.png (PNG copy)> <./images
+/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01.png (PNG copy)> <./images/PRISONERS_DI
+LEMMA_VON_NEUMANN_50x50_t05.png (PNG copy)> <./images/PRISONERS_DILEMMA_VON_NEU
+MANN_50x50_t10.png (PNG copy)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t2
+0.png (PNG copy)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png (PNG co
+py)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png (PNG copy)> <./image
+s/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png (PNG copy)> <./images/PDVonNeuma
+nn50x50.png> <./images/PDVonNeumann50x50HG.png>] [8] [9] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5519 strings out of 493029
- 84402 string characters out of 6136234
+ 5574 strings out of 493029
+ 86944 string characters out of 6136234
  155438 words of memory out of 5000000
- 8896 multiletter control sequences out of 15000+600000
+ 8940 multiletter control sequences out of 15000+600000
  58357 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,43p,342b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ma
-thsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (9 pages, 648502 bytes).
+{/usr/sh
+are/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-
+mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf
+/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (10 pages, 902925 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

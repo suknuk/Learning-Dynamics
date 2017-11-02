@@ -135,7 +135,12 @@ Graphic displays one specific game, Graph shows information of all games
 \end{subfigure}
 
 \begin{subfigure}{.75\textwidth}
-	\includegraphics[width=1\linewidth]{PDMoore4x4}
+	\includegraphics[width=1\linewidth]{PDMoore4x4HG}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+	mean = $0$
+	
+	deviation = $0$
 \end{subfigure}
 
 \end{figure}
@@ -383,6 +388,75 @@ converge at 10, 25 rounds
 blablabla
 
 
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Von Neumann Neighborhood}
+
+\subsubsection{50x50}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Prisoners Dilemma, Von Neumann, 50x50}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{PDVonNeumann50x50}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{PDVonNeumann50x50HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.3914$ and deviation = $0.0263$.
+\end{subfigure}
+
+\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -390,6 +464,7 @@ blablabla
 \newpage
 \section{Part Two}
 
+\[ P_{ij} = \frac{1+ \frac{W_j-W_i}{N \times (max\{P,R,T,S\} - min\{P,R,T,S\})}}{2} \]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
