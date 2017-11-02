@@ -14,7 +14,7 @@ public class ExecutingClass {
 		System.out.println("Hello");
 
 		int runs = 100;
-		int dim = 8; //dimensions (dim x dim)
+		int dim = 50; //dimensions (dim x dim)
 		GameType whatGameType = GameType.PRISONERS_DILEMMA;
 		Neighborhood whatNeighborhoodType = Neighborhood.MOORE;
 		ImitationMethod whatImitationMethod = ImitationMethod.HIGHEST_EARNER;
@@ -27,7 +27,7 @@ public class ExecutingClass {
 			myGames.add(newGame);
 		}
 		
-		CSVWriter writer = new CSVWriter(runs);
+		CSVWriter writer = new CSVWriter(runs, dim*dim);
 		
 		List<Integer> cooperationLevels;
 		
