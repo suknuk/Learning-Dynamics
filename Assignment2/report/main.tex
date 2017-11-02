@@ -142,7 +142,6 @@ Graphic displays one specific game, Graph shows information of all games
 
 	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
 
-\begin{landscape}
 
 \newpage
 
@@ -151,32 +150,32 @@ Graphic displays one specific game, Graph shows information of all games
 \subsubsection{8x8}
 \begin{figure}[H]
 \centering
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t00}
   \caption{t=0}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t01}
   \caption{t=1}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t05}
   \caption{t=5}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t10}
   \caption{t=10}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t20}
   \caption{t=20}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_8x8_t50}
   \caption{t=50}
@@ -186,13 +185,24 @@ Graphic displays one specific game, Graph shows information of all games
 
 
 \begin{figure}[H]
-\begin{subfigure}{.95\textwidth}
+\begin{subfigure}{.75\textwidth}
 	\includegraphics[width=1\linewidth]{PDMoore8x8}
+\end{subfigure}
+
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore8x8HG}
 \end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
-\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+	mean = $0.0605$
+	
+	deviation = $0.2251$
+\end{subfigure}
+
 \end{figure}
+
+converge at 10, 20 rounds
+
+	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
 
 
 \newpage
@@ -202,32 +212,32 @@ Graphic displays one specific game, Graph shows information of all games
 \subsubsection{12x12}
 \begin{figure}[H]
 \centering
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t00}
   \caption{t=0}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t01}
   \caption{t=1}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t05}
   \caption{t=5}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t10}
   \caption{t=10}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t20}
   \caption{t=20}
 \end{subfigure}%
-\begin{subfigure}{.26\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_12x12_t50}
   \caption{t=50}
@@ -235,39 +245,60 @@ Graphic displays one specific game, Graph shows information of all games
 \caption{Prisoners Dilemma, Moore, 12x12}
 \end{figure}
 
-\end{landscape}
+
+\begin{figure}[H]
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore12x12}
+\end{subfigure}
+
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore12x12HG}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+	mean = $0.1347$
+	
+	deviation = $0.3115$
+\end{subfigure}
+
+\end{figure}
+
+converge at 10, 25 rounds
+
+	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+
+\newpage
 
 %%%% 20x20
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{20x20}
 \begin{figure}[H]
 \centering
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t00}
   \caption{t=0}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t01}
   \caption{t=1}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t05}
   \caption{t=5}
 \end{subfigure}
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t10}
   \caption{t=10}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t20}
   \caption{t=20}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_20x20_t50}
   \caption{t=50}
@@ -275,39 +306,57 @@ Graphic displays one specific game, Graph shows information of all games
 \caption{Prisoners Dilemma, Moore, 20x20}
 \end{figure}
 
+\begin{figure}[H]
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore20x20}
+\end{subfigure}
+
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore20x20HG}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+	mean = $0.3305$
+	
+	deviation = $0.4262$
+\end{subfigure}
+
+\end{figure}
+
+	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
 
 
+\newpage
 %%%% 50x50
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{50x50}
 \begin{figure}[H]
 \centering
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t00}
   \caption{t=0}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t01}
   \caption{t=1}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t05}
   \caption{t=5}
 \end{subfigure}
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t10}
   \caption{t=10}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t20}
   \caption{t=20}
 \end{subfigure}%
-\begin{subfigure}{.33\textwidth}
+\begin{subfigure}{.16\textwidth}
   \centering
   \includegraphics[width=0.9\linewidth]{PRISONERS_DILEMMA_MOORE_50x50_t50}
   \caption{t=50}
@@ -315,6 +364,23 @@ Graphic displays one specific game, Graph shows information of all games
 \caption{Prisoners Dilemma, Moore, 50x50}
 \end{figure}
 
+\begin{figure}[H]
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore50x50}
+\end{subfigure}
+
+\begin{subfigure}{.75\textwidth}
+	\includegraphics[width=1\linewidth]{PDMoore50x50HG}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+	mean = $0.8379$
+	
+	deviation = $0.2165$
+\end{subfigure}
+
+\end{figure}
+
+blablabla
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
