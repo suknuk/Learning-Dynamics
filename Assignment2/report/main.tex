@@ -462,9 +462,437 @@ blablabla
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newpage
-\section{Part Two}
+\section{Part Two - Spatial Snowdrift Game - Replicator Rule}
+
+Replicator rule
 
 \[ P_{ij} = \frac{1+ \frac{W_j-W_i}{N \times (max\{P,R,T,S\} - min\{P,R,T,S\})}}{2} \]
+
+With the Snowdrift game, this formula becomes
+
+\[ P_{ij} = \frac{1+ \frac{W_j-W_i}{80}}{2} \]
+
+with the Moore neighborhood or
+
+\[ P_{ij} = \frac{1+ \frac{W_j-W_i}{40}}{2} \]
+
+with the Von Neumann neighborhood.
+
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Moore Neighborhood}
+
+\subsubsection{4x4}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_4x4_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Moore, 4x4}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore4x4}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore4x4HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4738$ and deviation = $0.1354$.
+\end{subfigure}
+
+\end{figure}
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{8x8}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_8x8_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Moore, 8x8}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore8x8}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore8x8HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4658$ and deviation = $0.0698$.
+\end{subfigure}
+
+\end{figure}
+
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{12x12}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_12x12_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Moore, 12x12}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore12x12}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore12x12HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4682$ and deviation = $0.0384$.
+\end{subfigure}
+
+\end{figure}
+
+
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{20x20}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_20x20_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Moore, 20x20}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore20x20}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore20x20HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4711$ and deviation = $0.0239$.
+\end{subfigure}
+
+\end{figure}
+
+
+
+
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{50x50}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_MOORE_50x50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Moore, 50x50}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore50x50}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDMoore50x50HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.473$ and deviation = $0.0117$.
+\end{subfigure}
+
+\end{figure}
+
+
+
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Von Neumann Neighborhood}
+
+\subsubsection{50x50}
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t10}
+  \caption{t=10}
+\end{subfigure}
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.25\textwidth}
+  \centering
+  \includegraphics[width=0.9\linewidth]{SNOWDRIFT_VON_NEUMANN_50x50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Snowdrift Game, Von Neumann, 50x50}
+\end{figure}
+
+
+\begin{figure}[H]
+\begin{subfigure}{.55\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDVonNeumann50x50}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{SDVonNeumann50x50HG}
+	\end{subfigure}
+\end{subfigure}%
+\begin{subfigure}{.45\textwidth}
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4461$ and deviation = $0.0104$.
+\end{subfigure}
+
+\end{figure}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
