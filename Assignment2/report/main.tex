@@ -456,7 +456,9 @@ A 50x50 lattice configuration results in a highly cooperative environment about 
 \begin{subfigure}{.45\textwidth}
 	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.3914$ and deviation = $0.0263$. The mean with this neighborhood type is about half as the mean from a Moore neighborhood game with the same lattice size. The deviation is however much smaller.
 	
-	The configuration converges after 20 rounds. Looking at the differences of the graphical representation, using the Von Neumann neighborhood results in non stationary clusters as we have with a Moore neighborhood. The cooperation level over time also changes, which we can observe in the curve. It does not drop too much at the first few rounds and then quickly converges to $\sim 0.4\%$ with the maximum and minimum level not being too far away which is why the deviation is much smaller compared to the Moore neighborhood.
+	The configuration converges after 20 rounds. Looking at the differences of the graphical representation, using the Von Neumann neighborhood results in non stationary clusters as we have with a Moore neighborhood. The cooperation level over time also changes, which we can observe in the curve. It does not drop too much at the first few rounds and then quickly converges to $\sim 0.4\%$ with the maximum and minimum level not being too far away which is why the deviation is much smaller compared to the Moore neighborhood. This is because of the influence caused by the defector players in the first few rounds is reduced with fewer neighbors.
+	
+	
 \end{subfigure}
 
 \end{figure}
@@ -479,13 +481,17 @@ Convergence & 3   & 4      & 7      & 10     & 25     & 20          &  \\ \cline
 \end{tabular}
 \end{table}
 
-qsdqsd
+Looking only at the Moore neighborhood configurations, we can observe that the mean increases and the deviation decreases with an increase in the lattice size. Lattices that converge with cooperation blocks divided by defector \textit{rivers} do need a large lattice size to occur regularly - this shown by the increase of the mean. The time to converge to a constant level does depend on the lattice size according to our results - the bigger the size, the higher the time to converge.
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newpage
+\hrule
+
 \section{Part Two - Spatial Snowdrift Game - Replicator Rule}
 
 Replicator rule
@@ -500,7 +506,9 @@ with the Moore neighborhood or
 
 \[ P_{ij} = \frac{1+ \frac{W_j-W_i}{40}}{2} \]
 
-with the Von Neumann neighborhood.
+with the Von Neumann neighborhood. This probabilistic method assures enables a \textit{mixed} strategy of replicating. Contrary to a \textit{pure} strategy as experimented with in part one, the replicator rule assigns a probability of choosing the strategy of the other player by taking the difference of the payoff between the two players. The greater the difference of $W_j - W_i$, the more likely it is to replicate the action
+
+The $N$ variable reduces this probability - more neighbors lead to a slightly smaller probability of replicating the opponent strategy. It makes sense to have a probabilistic update mechanism as many real \textit{games} have mixed strategies instead of pure ones - it allows for the modelling of phenomena’s we can see in nature for example.
 
 
 
@@ -567,7 +575,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4738$ and deviation = $0.1354$.
+	We get a mean = $0.4738$ and deviation = $0.1354$. The simulation converges after about 10 rounds. Contrary to the old update strategy, we don't have a single pure strategy lattice and the distribution looks already somewhat like a normal distribution.
 \end{subfigure}
 
 \end{figure}
@@ -634,7 +642,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4658$ and deviation = $0.0698$.
+	Again no pure strategy lattice and we get a mean = $0.4658$ and deviation = $0.0698$. A reduction in the deviation from the previous lattice size. The simulation converges at about the same time, after 10 rounds.
 \end{subfigure}
 
 \end{figure}
@@ -702,7 +710,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4682$ and deviation = $0.0384$.
+	Mean = $0.4682$ and deviation = $0.0384$. Convergence also after about 10 rounds. Also a reduction in the deviation, but the mean stays at the same level.
 \end{subfigure}
 
 \end{figure}
@@ -771,7 +779,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4711$ and deviation = $0.0239$.
+	Mean = $0.4711$ and deviation = $0.0239$. The trend continues: lower deviation, convergence after about 10 rounds. Comparing this lattice size to the old update mechanism, we don't observe the cooperation block creation.
 \end{subfigure}
 
 \end{figure}
@@ -841,7 +849,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.473$ and deviation = $0.0117$.
+	Mean = $0.473$ and deviation = $0.0117$. Same observation as previous lattice size.
 \end{subfigure}
 
 \end{figure}
@@ -912,7 +920,7 @@ with the Von Neumann neighborhood.
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4461$ and deviation = $0.0104$.
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4461$ and deviation = $0.0104$. Contrary to the observations of part one when changing the neighborhood type, we can not observe a large difference when changing to the Von Neumann method. The only difference is a slight reduction of the deviation
 \end{subfigure}
 
 \end{figure}
@@ -922,7 +930,7 @@ with the Von Neumann neighborhood.
 \newpage
 \subsection{Analysing the results}
 
-We can now have a look at the results of the experiments and investigate their differences.
+We can now have a combined look at the results of the experiments and investigate their differences.
 
 \begin{table}[H]
 \centering
@@ -932,11 +940,11 @@ We can now have a look at the results of the experiments and investigate their d
 Lattice     & 4x4    & 8x8    & 12x12  & 20x20  & 50x50  & 50x50       &  \\ \cline{1-7}
 Mean        & 0.4738 & 0.4658 & 0.4682 & 0.4711 & 0.473  & 0.4461      &  \\ \cline{1-7}
 Deviation   & 0.1354 & 0.0698 & 0.0384 & 0.0239 & 0.0117 & 0.0104      &  \\ \cline{1-7}
-Convergence & 10     & 10     & 20     & 10     & 10     & 10          &  \\ \cline{1-7}
+Convergence & 10     & 10     & 10     & 10     & 10     & 10          &  \\ \cline{1-7}
 \end{tabular}
 \end{table}
 
-qsdqsd
+From these results we can conclude that the mean stays relatively the same, no matter the lattice size. The deviation is being reduced with an increasing lattice size and the fields converge all at about the same number of rounds player: 10. Changing the neighborhood method to Von Neumann, the only difference we can observe is a slight reduction of the deviation.
 
 
 

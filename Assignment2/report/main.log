@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  3 NOV 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  3 NOV 2017 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1150,519 +1150,519 @@ MANN_50x50_t10.png (PNG copy)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t2
 0.png (PNG copy)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t50.png (PNG co
 py)> <./images/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t75.png (PNG copy)> <./image
 s/PRISONERS_DILEMMA_VON_NEUMANN_50x50_t100.png (PNG copy)> <./images/PDVonNeuma
-nn50x50.png> <./images/PDVonNeumann50x50HG.png>] [8] [9]
-<images/SNOWDRIFT_MOORE_4x4_t00.png, id=113, 20.075pt x 20.075pt>
+nn50x50.png> <./images/PDVonNeumann50x50HG.png>] [8] <images/SNOWDRIFT_MOORE_4x
+4_t00.png, id=110, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t00.png used on input line 
-517.
+525.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t01.png, id=114, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t01.png, id=111, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t01.png used on input line 
-522.
+530.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t05.png, id=115, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t05.png, id=112, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t05.png used on input line 
-527.
+535.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t10.png, id=116, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t10.png, id=113, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t10.png used on input line 
-532.
+540.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t20.png, id=117, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t20.png, id=114, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t20.png used on input line 
-537.
+545.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t50.png, id=118, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t50.png, id=115, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t50.png used on input line 
-542.
+550.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t75.png, id=119, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t75.png, id=116, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t75.png used on input line 
-547.
+555.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SNOWDRIFT_MOORE_4x4_t100.png, id=120, 20.075pt x 20.075pt>
+<images/SNOWDRIFT_MOORE_4x4_t100.png, id=117, 20.075pt x 20.075pt>
 File: images/SNOWDRIFT_MOORE_4x4_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_4x4_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_4x4_t100.png used on input line
- 552.
+ 560.
 (pdftex.def)             Requested size: 108.83104pt x 108.85603pt.
 
-<images/SDMoore4x4.png, id=121, 1485.55pt x 834.11626pt>
+<images/SDMoore4x4.png, id=118, 1485.55pt x 834.11626pt>
 File: images/SDMoore4x4.png Graphic file (type png)
 
 <use images/SDMoore4x4.png>
-Package pdftex.def Info: images/SDMoore4x4.png used on input line 562.
+Package pdftex.def Info: images/SDMoore4x4.png used on input line 570.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDMoore4x4HG.png, id=122, 1485.55pt x 834.11626pt>
+<images/SDMoore4x4HG.png, id=119, 1485.55pt x 834.11626pt>
 File: images/SDMoore4x4HG.png Graphic file (type png)
 
 <use images/SDMoore4x4HG.png>
-Package pdftex.def Info: images/SDMoore4x4HG.png used on input line 566.
+Package pdftex.def Info: images/SDMoore4x4HG.png used on input line 574.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [10 <./images/SNOWDRIFT_MOORE_4x4_t00.png (PNG copy)> <./images/SNOWDRIFT_MOOR
-E_4x4_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t05.png (PNG copy)> <./
-images/SNOWDRIFT_MOORE_4x4_t10.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t2
-0.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t50.png (PNG copy)> <./images/S
-NOWDRIFT_MOORE_4x4_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t100.png (
-PNG copy)> <./images/SDMoore4x4.png> <./images/SDMoore4x4HG.png>]
-<images/SNOWDRIFT_MOORE_8x8_t00.png, id=128, 40.15pt x 40.15pt>
+ [9 <./images/SNOWDRIFT_MOORE_4x4_t00.png (PNG copy)> <./images/SNOWDRIFT_MOORE
+_4x4_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t05.png (PNG copy)> <./i
+mages/SNOWDRIFT_MOORE_4x4_t10.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t20
+.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t50.png (PNG copy)> <./images/SN
+OWDRIFT_MOORE_4x4_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_4x4_t100.png (P
+NG copy)> <./images/SDMoore4x4.png> <./images/SDMoore4x4HG.png>] <images/SNOWDR
+IFT_MOORE_8x8_t00.png, id=125, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t00.png used on input line 
-584.
+592.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t01.png, id=129, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t01.png, id=126, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t01.png used on input line 
-589.
+597.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t05.png, id=130, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t05.png, id=127, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t05.png used on input line 
-594.
+602.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t10.png, id=131, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t10.png, id=128, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t10.png used on input line 
-599.
+607.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t20.png, id=132, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t20.png, id=129, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t20.png used on input line 
-604.
+612.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t50.png, id=133, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t50.png, id=130, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t50.png used on input line 
-609.
+617.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t75.png, id=134, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t75.png, id=131, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t75.png used on input line 
-614.
+622.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SNOWDRIFT_MOORE_8x8_t100.png, id=135, 40.15pt x 40.15pt>
+<images/SNOWDRIFT_MOORE_8x8_t100.png, id=132, 40.15pt x 40.15pt>
 File: images/SNOWDRIFT_MOORE_8x8_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_8x8_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_8x8_t100.png used on input line
- 619.
+ 627.
 (pdftex.def)             Requested size: 108.83104pt x 108.83464pt.
 
-<images/SDMoore8x8.png, id=136, 1485.55pt x 834.11626pt>
+<images/SDMoore8x8.png, id=133, 1485.55pt x 834.11626pt>
 File: images/SDMoore8x8.png Graphic file (type png)
 
 <use images/SDMoore8x8.png>
-Package pdftex.def Info: images/SDMoore8x8.png used on input line 629.
+Package pdftex.def Info: images/SDMoore8x8.png used on input line 637.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDMoore8x8HG.png, id=137, 1485.55pt x 834.11626pt>
+<images/SDMoore8x8HG.png, id=134, 1485.55pt x 834.11626pt>
 File: images/SDMoore8x8HG.png Graphic file (type png)
 
 <use images/SDMoore8x8HG.png>
-Package pdftex.def Info: images/SDMoore8x8HG.png used on input line 633.
+Package pdftex.def Info: images/SDMoore8x8HG.png used on input line 641.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [11 <./images/SNOWDRIFT_MOORE_8x8_t00.png (PNG copy)> <./images/SNOWDRIFT_MOOR
+ [10 <./images/SNOWDRIFT_MOORE_8x8_t00.png (PNG copy)> <./images/SNOWDRIFT_MOOR
 E_8x8_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_8x8_t05.png (PNG copy)> <./
 images/SNOWDRIFT_MOORE_8x8_t10.png (PNG copy)> <./images/SNOWDRIFT_MOORE_8x8_t2
 0.png (PNG copy)> <./images/SNOWDRIFT_MOORE_8x8_t50.png (PNG copy)> <./images/S
 NOWDRIFT_MOORE_8x8_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_8x8_t100.png (
 PNG copy)> <./images/SDMoore8x8.png> <./images/SDMoore8x8HG.png>]
-<images/SNOWDRIFT_MOORE_12x12_t00.png, id=143, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t00.png, id=140, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t00.png used on input lin
-e 652.
+e 660.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t01.png, id=144, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t01.png, id=141, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t01.png used on input lin
-e 657.
+e 665.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t05.png, id=145, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t05.png, id=142, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t05.png used on input lin
-e 662.
+e 670.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t10.png, id=146, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t10.png, id=143, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t10.png used on input lin
-e 667.
+e 675.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t20.png, id=147, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t20.png, id=144, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t20.png used on input lin
-e 672.
+e 680.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t50.png, id=148, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t50.png, id=145, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t50.png used on input lin
-e 677.
+e 685.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t75.png, id=149, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t75.png, id=146, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t75.png used on input lin
-e 682.
+e 690.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SNOWDRIFT_MOORE_12x12_t100.png, id=150, 60.225pt x 60.225pt>
+<images/SNOWDRIFT_MOORE_12x12_t100.png, id=147, 60.225pt x 60.225pt>
 File: images/SNOWDRIFT_MOORE_12x12_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_12x12_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_12x12_t100.png used on input li
-ne 687.
+ne 695.
 (pdftex.def)             Requested size: 108.83104pt x 108.84138pt.
 
-<images/SDMoore12x12.png, id=151, 1485.55pt x 834.11626pt>
+<images/SDMoore12x12.png, id=148, 1485.55pt x 834.11626pt>
 File: images/SDMoore12x12.png Graphic file (type png)
 
 <use images/SDMoore12x12.png>
-Package pdftex.def Info: images/SDMoore12x12.png used on input line 697.
+Package pdftex.def Info: images/SDMoore12x12.png used on input line 705.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDMoore12x12HG.png, id=152, 1485.55pt x 834.11626pt>
+<images/SDMoore12x12HG.png, id=149, 1485.55pt x 834.11626pt>
 File: images/SDMoore12x12HG.png Graphic file (type png)
 
 <use images/SDMoore12x12HG.png>
-Package pdftex.def Info: images/SDMoore12x12HG.png used on input line 701.
+Package pdftex.def Info: images/SDMoore12x12HG.png used on input line 709.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [12 <./images/SNOWDRIFT_MOORE_12x12_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
+ [11 <./images/SNOWDRIFT_MOORE_12x12_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
 ORE_12x12_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_12x12_t05.png (PNG copy
 )> <./images/SNOWDRIFT_MOORE_12x12_t10.png (PNG copy)> <./images/SNOWDRIFT_MOOR
 E_12x12_t20.png (PNG copy)> <./images/SNOWDRIFT_MOORE_12x12_t50.png (PNG copy)>
  <./images/SNOWDRIFT_MOORE_12x12_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_
 12x12_t100.png (PNG copy)> <./images/SDMoore12x12.png> <./images/SDMoore12x12HG
 .png>]
-<images/SNOWDRIFT_MOORE_20x20_t00.png, id=159, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t00.png, id=155, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t00.png used on input lin
-e 721.
+e 729.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t01.png, id=160, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t01.png, id=156, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t01.png used on input lin
-e 726.
+e 734.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t05.png, id=161, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t05.png, id=157, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t05.png used on input lin
-e 731.
+e 739.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t10.png, id=162, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t10.png, id=158, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t10.png used on input lin
-e 736.
+e 744.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t20.png, id=163, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t20.png, id=159, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t20.png used on input lin
-e 741.
+e 749.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t50.png, id=164, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t50.png, id=160, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t50.png used on input lin
-e 746.
+e 754.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t75.png, id=165, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t75.png, id=161, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t75.png used on input lin
-e 751.
+e 759.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SNOWDRIFT_MOORE_20x20_t100.png, id=166, 100.375pt x 100.375pt>
+<images/SNOWDRIFT_MOORE_20x20_t100.png, id=162, 100.375pt x 100.375pt>
 File: images/SNOWDRIFT_MOORE_20x20_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_20x20_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_20x20_t100.png used on input li
-ne 756.
+ne 764.
 (pdftex.def)             Requested size: 108.83104pt x 108.83833pt.
 
-<images/SDMoore20x20.png, id=167, 1485.55pt x 834.11626pt>
+<images/SDMoore20x20.png, id=163, 1485.55pt x 834.11626pt>
 File: images/SDMoore20x20.png Graphic file (type png)
 
 <use images/SDMoore20x20.png>
-Package pdftex.def Info: images/SDMoore20x20.png used on input line 766.
+Package pdftex.def Info: images/SDMoore20x20.png used on input line 774.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDMoore20x20HG.png, id=168, 1485.55pt x 834.11626pt>
+<images/SDMoore20x20HG.png, id=164, 1485.55pt x 834.11626pt>
 File: images/SDMoore20x20HG.png Graphic file (type png)
 
 <use images/SDMoore20x20HG.png>
-Package pdftex.def Info: images/SDMoore20x20HG.png used on input line 770.
+Package pdftex.def Info: images/SDMoore20x20HG.png used on input line 778.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [13 <./images/SNOWDRIFT_MOORE_20x20_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
+ [12 <./images/SNOWDRIFT_MOORE_20x20_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
 ORE_20x20_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_20x20_t05.png (PNG copy
 )> <./images/SNOWDRIFT_MOORE_20x20_t10.png (PNG copy)> <./images/SNOWDRIFT_MOOR
 E_20x20_t20.png (PNG copy)> <./images/SNOWDRIFT_MOORE_20x20_t50.png (PNG copy)>
  <./images/SNOWDRIFT_MOORE_20x20_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_
 20x20_t100.png (PNG copy)> <./images/SDMoore20x20.png> <./images/SDMoore20x20HG
 .png>]
-<images/SNOWDRIFT_MOORE_50x50_t00.png, id=174, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t00.png, id=171, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t00.png used on input lin
-e 791.
+e 799.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t01.png, id=175, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t01.png, id=172, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t01.png used on input lin
-e 796.
+e 804.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t05.png, id=176, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t05.png, id=173, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t05.png used on input lin
-e 801.
+e 809.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t10.png, id=177, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t10.png, id=174, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t10.png used on input lin
-e 806.
+e 814.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t20.png, id=178, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t20.png, id=175, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t20.png used on input lin
-e 811.
+e 819.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t50.png, id=179, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t50.png, id=176, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t50.png used on input lin
-e 816.
+e 824.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t75.png, id=180, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t75.png, id=177, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t75.png used on input lin
-e 821.
+e 829.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_MOORE_50x50_t100.png, id=181, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_MOORE_50x50_t100.png, id=178, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_MOORE_50x50_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_MOORE_50x50_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_MOORE_50x50_t100.png used on input li
-ne 826.
+ne 834.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SDMoore50x50.png, id=182, 1485.55pt x 834.11626pt>
+<images/SDMoore50x50.png, id=179, 1485.55pt x 834.11626pt>
 File: images/SDMoore50x50.png Graphic file (type png)
 
 <use images/SDMoore50x50.png>
-Package pdftex.def Info: images/SDMoore50x50.png used on input line 836.
+Package pdftex.def Info: images/SDMoore50x50.png used on input line 844.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDMoore50x50HG.png, id=183, 1485.55pt x 834.11626pt>
+<images/SDMoore50x50HG.png, id=180, 1485.55pt x 834.11626pt>
 File: images/SDMoore50x50HG.png Graphic file (type png)
 
 <use images/SDMoore50x50HG.png>
-Package pdftex.def Info: images/SDMoore50x50HG.png used on input line 840.
+Package pdftex.def Info: images/SDMoore50x50HG.png used on input line 848.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [14 <./images/SNOWDRIFT_MOORE_50x50_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
+ [13 <./images/SNOWDRIFT_MOORE_50x50_t00.png (PNG copy)> <./images/SNOWDRIFT_MO
 ORE_50x50_t01.png (PNG copy)> <./images/SNOWDRIFT_MOORE_50x50_t05.png (PNG copy
 )> <./images/SNOWDRIFT_MOORE_50x50_t10.png (PNG copy)> <./images/SNOWDRIFT_MOOR
 E_50x50_t20.png (PNG copy)> <./images/SNOWDRIFT_MOORE_50x50_t50.png (PNG copy)>
  <./images/SNOWDRIFT_MOORE_50x50_t75.png (PNG copy)> <./images/SNOWDRIFT_MOORE_
 50x50_t100.png (PNG copy)> <./images/SDMoore50x50.png> <./images/SDMoore50x50HG
 .png>]
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png, id=189, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png, id=186, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png used on inp
-ut line 862.
+ut line 870.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t01.png, id=190, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t01.png, id=187, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t01.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t01.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t01.png used on inp
-ut line 867.
+ut line 875.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t05.png, id=191, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t05.png, id=188, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t05.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t05.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t05.png used on inp
-ut line 872.
+ut line 880.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png, id=192, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png, id=189, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png used on inp
-ut line 877.
+ut line 885.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png, id=193, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png, id=190, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png used on inp
-ut line 882.
+ut line 890.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t50.png, id=194, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t50.png, id=191, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t50.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t50.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t50.png used on inp
-ut line 887.
+ut line 895.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t75.png, id=195, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t75.png, id=192, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t75.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t75.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t75.png used on inp
-ut line 892.
+ut line 900.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png, id=196, 250.9375pt x 250.9375pt>
+<images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png, id=193, 250.9375pt x 250.9375pt>
 File: images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png Graphic file (type png)
 
 <use images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png>
 Package pdftex.def Info: images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png used on in
-put line 897.
+put line 905.
 (pdftex.def)             Requested size: 108.83104pt x 108.83145pt.
 
-<images/SDVonNeumann50x50.png, id=197, 1485.55pt x 834.11626pt>
+<images/SDVonNeumann50x50.png, id=194, 1485.55pt x 834.11626pt>
 File: images/SDVonNeumann50x50.png Graphic file (type png)
 
 <use images/SDVonNeumann50x50.png>
-Package pdftex.def Info: images/SDVonNeumann50x50.png used on input line 907.
+Package pdftex.def Info: images/SDVonNeumann50x50.png used on input line 915.
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
 
-<images/SDVonNeumann50x50HG.png, id=198, 1485.55pt x 834.11626pt>
+<images/SDVonNeumann50x50HG.png, id=195, 1485.55pt x 834.11626pt>
 File: images/SDVonNeumann50x50HG.png Graphic file (type png)
 
 <use images/SDVonNeumann50x50HG.png>
-Package pdftex.def Info: images/SDVonNeumann50x50HG.png used on input line 911.
+Package pdftex.def Info: images/SDVonNeumann50x50HG.png used on input line 919.
 
 (pdftex.def)             Requested size: 266.03474pt x 149.37079pt.
- [15 <./images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png (PNG copy)> <./images/SNOWDR
+ [14 <./images/SNOWDRIFT_VON_NEUMANN_50x50_t00.png (PNG copy)> <./images/SNOWDR
 IFT_VON_NEUMANN_50x50_t01.png (PNG copy)> <./images/SNOWDRIFT_VON_NEUMANN_50x50
 _t05.png (PNG copy)> <./images/SNOWDRIFT_VON_NEUMANN_50x50_t10.png (PNG copy)> 
 <./images/SNOWDRIFT_VON_NEUMANN_50x50_t20.png (PNG copy)> <./images/SNOWDRIFT_V
 ON_NEUMANN_50x50_t50.png (PNG copy)> <./images/SNOWDRIFT_VON_NEUMANN_50x50_t75.
 png (PNG copy)> <./images/SNOWDRIFT_VON_NEUMANN_50x50_t100.png (PNG copy)> <./i
-mages/SDVonNeumann50x50.png> <./images/SDVonNeumann50x50HG.png>] [16] [17] (./m
+mages/SDVonNeumann50x50.png> <./images/SDVonNeumann50x50HG.png>] [15] [16] (./m
 ain.aux) ) 
 Here is how much of TeX's memory you used:
  5881 strings out of 493029
  98037 string characters out of 6136234
- 156438 words of memory out of 5000000
+ 158438 words of memory out of 5000000
  9186 multiletter control sequences out of 15000+600000
  58357 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,43p,535b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,11n,43p,656b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/font
 s/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
 }{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/p
@@ -1674,10 +1674,10 @@ r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (18 pages, 2212188 bytes).
+Output written on main.pdf (17 pages, 2217107 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 254 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  556 words of extra memory for PDF output out of 10000 (max. 10000000)
 
