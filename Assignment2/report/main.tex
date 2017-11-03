@@ -73,22 +73,31 @@
 
 \section*{Preliminary information}
 
-Each simulation was being executed 100 times.
-For the visualizations:
+Each game configuration was being simulated 100 times to receive a good picture of the various possible outcomes. Rounds were played until convergence was certain. For the visualizations:
 \begin{itemize}[noitemsep]
   \item Red signifies the action \textit{cooperation}
   \item Blue signifies the action \textit{defection}
 \end{itemize}
 
-Graphic displays one specific game, Graph shows information of all games
+The graphic displays one specific game, whereas the cooperation graph shows information of all games combined.
 
 
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=0.9\linewidth]{NeighborhoodType}
+    \caption{Two Neighborhood types}
+\end{figure}
 
-\section{Part One - Spatial Prisoners Dilemma}
 
-\subsection{Moore Neighborhood}
+The tested games are:
+\begin{itemize}[noitemsep]
+  \item Weak Prisonners Dilemma - (T=10, R=7, P=S=0)
+  \item Snowdrift Game - (T=12, R=7, P= 0, S=3)
+\end{itemize}
 
 \newpage
+\section{Part One - Spatial Prisoners Dilemma}
+\subsection{Moore Neighborhood}
 
 
 %%%% 4x4
@@ -145,7 +154,7 @@ Graphic displays one specific game, Graph shows information of all games
 
 \end{figure}
 
-	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+	From simulating 100 runs we observe that all converge to the pure strategy of \textit{defecting} after 3 rounds. Nevertheless, it is however possible that a 4x4 configuration converges to a total cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
 
 
 \newpage
@@ -205,10 +214,7 @@ Graphic displays one specific game, Graph shows information of all games
 
 \end{figure}
 
-converge at 10, 20 rounds
-
-	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
-
+Increasing the lattice to 8x8, we get our first pure cooperation and mixed strategy fields. The configuration converges after 4 rounds, but most fields end up as being pure defector lattices.
 
 \newpage
 
@@ -267,9 +273,7 @@ converge at 10, 20 rounds
 
 \end{figure}
 
-converge at 10, 25 rounds
-
-	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+A lattice configuration of 12x12 increases the chance slightly that the whole lattice does not end up being only defectors. More mixed strategy lattices at $0.7$ and some more pure strategy cooperation lattices. Convergence after 7 rounds.
 
 \newpage
 
@@ -327,7 +331,7 @@ converge at 10, 25 rounds
 
 \end{figure}
 
-	From simulating 100 runs we observe that all converge to \textit{defecting}. It is however possible that it converges to a cooperative field, but it requires that we have a sub-matrix of 2x2 with only cooperators and all other players being defectors. This did obviously not happen during one of the simulations.
+The 20x20 lattice configuration results in $60 \%$ of games being purely defectors and the rest being either purely cooperative or mostly cooperative. The graphical representation shows the creation of cooperation blocks after time, with defector \textit{rivers} in between. 
 
 
 \newpage
@@ -385,8 +389,7 @@ converge at 10, 25 rounds
 
 \end{figure}
 
-blablabla
-
+A 50x50 lattice configuration results in a highly cooperative environment about $94\%$ of the time. Convergence after 25 rounds. Looking at the graphical representation we can see that clusters of cooperation with \textit{rivers} of defection are being formed. The distribution starts to look like a normal distribution.
 
 \newpage
 
@@ -451,11 +454,32 @@ blablabla
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.3914$ and deviation = $0.0263$.
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.3914$ and deviation = $0.0263$. The mean with this neighborhood type is about half as the mean from a Moore neighborhood game with the same lattice size. The deviation is however much smaller.
+	
+	The configuration converges after 20 rounds. Looking at the differences of the graphical representation, using the Von Neumann neighborhood results in non stationary clusters as we have with a Moore neighborhood. The cooperation level over time also changes, which we can observe in the curve. It does not drop too much at the first few rounds and then quickly converges to $\sim 0.4\%$ with the maximum and minimum level not being too far away which is why the deviation is much smaller compared to the Moore neighborhood.
 \end{subfigure}
 
 \end{figure}
 
+
+\newpage
+\subsection{Analysing the results}
+
+We can now have a look at the results of the experiments and investigate their differences.
+
+\begin{table}[H]
+\centering
+\caption{Combined Experiment Results}
+\begin{tabular}{l|l|l|l|l|l|l|l}
+            & \multicolumn{5}{c|}{Moore}              & Von Neumann &  \\ \cline{1-7}
+Lattice     & 4x4 & 8x8    & 12x12  & 20x20  & 50x50  & 50x50       &  \\ \cline{1-7}
+Mean        & 0   & 0.0605 & 0.1347 & 0.3305 & 0.8379 & 0.3914      &  \\ \cline{1-7}
+Deviation   & 0   & 0.2251 & 0.3115 & 0.4262 & 0.2165 & 0.0263      &  \\ \cline{1-7}
+Convergence & 3   & 4      & 7      & 10     & 25     & 20          &  \\ \cline{1-7}
+\end{tabular}
+\end{table}
+
+qsdqsd
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -892,6 +916,28 @@ with the Von Neumann neighborhood.
 \end{subfigure}
 
 \end{figure}
+
+
+
+\newpage
+\subsection{Analysing the results}
+
+We can now have a look at the results of the experiments and investigate their differences.
+
+\begin{table}[H]
+\centering
+\caption{Combined Experiment Results}
+\begin{tabular}{l|l|l|l|l|l|l|l}
+            & \multicolumn{5}{c|}{Moore}                 & Von Neumann &  \\ \cline{1-7}
+Lattice     & 4x4    & 8x8    & 12x12  & 20x20  & 50x50  & 50x50       &  \\ \cline{1-7}
+Mean        & 0.4738 & 0.4658 & 0.4682 & 0.4711 & 0.473  & 0.4461      &  \\ \cline{1-7}
+Deviation   & 0.1354 & 0.0698 & 0.0384 & 0.0239 & 0.0117 & 0.0104      &  \\ \cline{1-7}
+Convergence & 10     & 10     & 20     & 10     & 10     & 10          &  \\ \cline{1-7}
+\end{tabular}
+\end{table}
+
+qsdqsd
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
