@@ -1059,7 +1059,7 @@ The following graphical lattice representation will use the following colors wit
 	\end{subfigure}
 \end{figure}
 
-In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state. This does suspiciously look like a dynamic system with a circular population. To show that this is the case, we shall investigate non-equal starting populations.
+In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$ between $0.33$ and $0.337$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state. This does suspiciously look like a dynamic system with a circular population. To show that this is the case, we shall investigate non-equal starting populations.
 
 \end{landscape}
 
@@ -1067,7 +1067,7 @@ In the graphical representation we can observe a non stationary population conta
 
 \newpage
 \begin{landscape}
-\subsection{50x50, Increased Rock population, Highest earner, Moore}
+\subsection{50x50, Increased Rock population(40,30,30) , Highest earner, Moore}
 
 \begin{figure}[H]
 \centering
@@ -1130,12 +1130,211 @@ In the graphical representation we can observe a non stationary population conta
 	\end{subfigure}
 \end{figure}
 
-We observe that the oscillating wave is larger than in the first experiment. Here, all populations oscillate from $0.31$ to $0.356$. The spike in the max curve in the rock population at $t=100$ and $t=150$ can be explained due to a random composition of the lattice. But it also shows us that the population goes back to oscillating to the original state, even when there is a influence like this. Changing which population has the highest percentage at $t=0$ does result in the same outcome.
+We observe that the oscillating wave is larger than in the first experiment. Here, all populations oscillate from $0.31$ to $0.357$. The spike in the max curve in the rock population at $t=100$ and $t=150$ can be explained due to a random composition of the lattice. But it also shows us that the population goes back to oscillating to the original state, even when there is a influence like this. Changing which population has the highest percentage at $t=0$ does result in the same outcome.
 
 \end{landscape}
 
 
 
+
+
+\newpage
+\begin{landscape}
+\subsection{50x50, Increased Rock population(50,25,25) , Highest earner, Moore}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Rock(50) - Paper(25) - Scissors(25), Moore, 50x50}
+\end{figure}
+
+
+%todo
+\begin{figure}[H]
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_Rock}
+		\caption{Rock population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_Paper}
+		\caption{Paper population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_Scissors}
+		\caption{Scissors population}
+	\end{subfigure}
+\end{figure}
+
+To obtain a clear picture of these results, we must also look at the frequency diagrams of each population state. But it is clear that some lattices converge to a pure strategy state and some lattices continue to oscillate.
+
+
+\end{landscape}
+\newpage
+
+\begin{figure}[H]
+\begin{subfigure}{.65\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_RockHG}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_PaperHG}
+	\end{subfigure}
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_ScissorsHG}
+	\end{subfigure}	
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_IndividualRock}
+	\end{subfigure}		
+	
+\end{subfigure}%
+\begin{subfigure}{.35\textwidth}
+	All three populations have about the same distribution. To find out if the oscillating radius increased again with a higher initial population, we look at many individual plotted population graphs. And indeed, the radius increased again, this time from $0.28$ to $0.39$ for the simulations that do not converge to a pure strategy.
+\end{subfigure}
+
+\end{figure}
+
+
+
+
+
+
+\newpage
+\begin{landscape}
+\subsection{50x50, Increased Rock population(60,20,20) , Highest earner, Moore}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Rock(60) - Paper(20) - Scissors(20), Moore, 50x50}
+\end{figure}
+
+
+%todo
+\begin{figure}[H]
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_Rock}
+		\caption{Rock population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_Paper}
+		\caption{Paper population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_Scissors}
+		\caption{Scissors population}
+	\end{subfigure}
+\end{figure}
+
+We will again look at the frequency diagram and individual plotting.
+\end{landscape}
+\newpage
+
+\begin{figure}[H]
+\begin{subfigure}{.65\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_RockHG}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_PaperHG}
+	\end{subfigure}
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_ScissorsHG}
+	\end{subfigure}	
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_IndividualRock}
+	\end{subfigure}		
+	
+\end{subfigure}%
+\begin{subfigure}{.35\textwidth}
+	
+	We find a higher percentage of pure strategy lattices than in the previous experiment. We do however also find that the deviation for mixed strategies is less than in the previous example. This is mirrored by the oscillating effect, which is now between $0.3$ and $0.369$ - less than the previous example.
+\end{subfigure}
+
+\end{figure}
 
 
 

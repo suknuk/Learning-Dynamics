@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  4 NOV 2017 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  4 NOV 2017 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1898,31 +1898,352 @@ R_SCISSORS_MOORE_50x50_HighRockPop_t20.png (PNG copy)> <./images/ROCK_PAPER_SCI
 SSORS_MOORE_50x50_HighRockPop_t50.png (PNG copy)> <./images/ROCK_PAPER_SCISSORS
 _MOORE_50x50_HighRockPop_t75.png (PNG copy)> <./images/ROCK_PAPER_SCISSORS_MOOR
 E_50x50_HighRockPop_t100.png (PNG copy)> <./images/50x50_40RockDist_Rock.png> <
-./images/50x50_40RockDist_Paper.png> <./images/50x50_40RockDist_Scissors.png>] 
-(./main.aux) ) 
+./images/50x50_40RockDist_Paper.png> <./images/50x50_40RockDist_Scissors.png>]
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t00.png, id=240, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t00.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t00.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+00.png used on input line 1149.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t01.png, id=241, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t01.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t01.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+01.png used on input line 1154.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t05.png, id=242, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t05.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t05.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+05.png used on input line 1159.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t10.png, id=243, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t10.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t10.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+10.png used on input line 1164.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t20.png, id=244, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t20.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t20.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+20.png used on input line 1169.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t50.png, id=245, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t50.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t50.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+50.png used on input line 1174.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t75.png, id=246, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t75.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t75.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+75.png used on input line 1179.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t100.png, id=247, 250.937
+5pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t100.png Graphic fil
+e (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t100.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t
+100.png used on input line 1184.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+Overfull \hbox (42.66724pt too wide) in paragraph at lines 1147--1187
+ []$[]$$[]$$[]$$[]$$[]$$[]$$[]$$[]$ 
+ []
+
+<images/50x50_50RockDist_Rock.png, id=248, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_Rock.png Graphic file (type png)
+
+<use images/50x50_50RockDist_Rock.png>
+Package pdftex.def Info: images/50x50_50RockDist_Rock.png used on input line 11
+94.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+<images/50x50_50RockDist_Paper.png, id=249, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_Paper.png Graphic file (type png)
+
+<use images/50x50_50RockDist_Paper.png>
+Package pdftex.def Info: images/50x50_50RockDist_Paper.png used on input line 1
+198.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+<images/50x50_50RockDist_Scissors.png, id=250, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_Scissors.png Graphic file (type png)
+
+<use images/50x50_50RockDist_Scissors.png>
+Package pdftex.def Info: images/50x50_50RockDist_Scissors.png used on input lin
+e 1202.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+Overfull \hbox (37.84041pt too wide) in paragraph at lines 1193--1205
+[]$[]$$[]$$[]$ 
+ []
+
+[18
+
+
+ <./images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t00.png (PNG copy)> <.
+/images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t01.png (PNG copy)> <./im
+ages/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t05.png (PNG copy)> <./image
+s/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t10.png (PNG copy)> <./images/R
+OCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t20.png (PNG copy)> <./images/ROCK
+_PAPER_SCISSORS_MOORE_50x50_HighRockPop50_t50.png (PNG copy)> <./images/ROCK_PA
+PER_SCISSORS_MOORE_50x50_HighRockPop50_t75.png (PNG copy)> <./images/ROCK_PAPER
+_SCISSORS_MOORE_50x50_HighRockPop50_t100.png (PNG copy)> <./images/50x50_50Rock
+Dist_Rock.png> <./images/50x50_50RockDist_Paper.png> <./images/50x50_50RockDist
+_Scissors.png>]
+<images/50x50_50RockDist_RockHG.png, id=258, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_RockHG.png Graphic file (type png)
+
+<use images/50x50_50RockDist_RockHG.png>
+Package pdftex.def Info: images/50x50_50RockDist_RockHG.png used on input line 
+1216.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_50RockDist_PaperHG.png, id=259, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_PaperHG.png Graphic file (type png)
+
+<use images/50x50_50RockDist_PaperHG.png>
+Package pdftex.def Info: images/50x50_50RockDist_PaperHG.png used on input line
+ 1220.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_50RockDist_ScissorsHG.png, id=260, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_ScissorsHG.png Graphic file (type png)
+
+<use images/50x50_50RockDist_ScissorsHG.png>
+Package pdftex.def Info: images/50x50_50RockDist_ScissorsHG.png used on input l
+ine 1224.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_50RockDist_IndividualRock.png, id=261, 1485.55pt x 834.11626pt>
+File: images/50x50_50RockDist_IndividualRock.png Graphic file (type png)
+
+<use images/50x50_50RockDist_IndividualRock.png>
+Package pdftex.def Info: images/50x50_50RockDist_IndividualRock.png used on inp
+ut line 1228.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+ [19
+
+ <./images/50x50_50RockDist_RockHG.png> <./images/50x50_50RockDist_PaperHG.png>
+ <./images/50x50_50RockDist_ScissorsHG.png> <./images/50x50_50RockDist_Individu
+alRock.png>]
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t00.png, id=269, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t00.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t00.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+00.png used on input line 1251.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t01.png, id=270, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t01.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t01.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+01.png used on input line 1256.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t05.png, id=271, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t05.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t05.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+05.png used on input line 1261.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t10.png, id=272, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t10.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t10.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+10.png used on input line 1266.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t20.png, id=273, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t20.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t20.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+20.png used on input line 1271.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t50.png, id=274, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t50.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t50.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+50.png used on input line 1276.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t75.png, id=275, 250.9375
+pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t75.png Graphic file
+ (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t75.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+75.png used on input line 1281.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+<images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t100.png, id=276, 250.937
+5pt x 250.9375pt>
+File: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t100.png Graphic fil
+e (type png)
+
+<use images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t100.png>
+Package pdftex.def Info: images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t
+100.png used on input line 1286.
+(pdftex.def)             Requested size: 91.90068pt x 91.89964pt.
+
+Overfull \hbox (42.66724pt too wide) in paragraph at lines 1249--1289
+ []$[]$$[]$$[]$$[]$$[]$$[]$$[]$$[]$ 
+ []
+
+<images/50x50_60RockDist_Rock.png, id=277, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_Rock.png Graphic file (type png)
+
+<use images/50x50_60RockDist_Rock.png>
+Package pdftex.def Info: images/50x50_60RockDist_Rock.png used on input line 12
+96.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+<images/50x50_60RockDist_Paper.png, id=278, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_Paper.png Graphic file (type png)
+
+<use images/50x50_60RockDist_Paper.png>
+Package pdftex.def Info: images/50x50_60RockDist_Paper.png used on input line 1
+300.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+<images/50x50_60RockDist_Scissors.png, id=279, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_Scissors.png Graphic file (type png)
+
+<use images/50x50_60RockDist_Scissors.png>
+Package pdftex.def Info: images/50x50_60RockDist_Scissors.png used on input lin
+e 1304.
+(pdftex.def)             Requested size: 256.35875pt x 143.93611pt.
+
+Overfull \hbox (37.84041pt too wide) in paragraph at lines 1295--1307
+[]$[]$$[]$$[]$ 
+ []
+
+[20
+
+ <./images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t00.png (PNG copy)> <.
+/images/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t01.png (PNG copy)> <./im
+ages/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t05.png (PNG copy)> <./image
+s/ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t10.png (PNG copy)> <./images/R
+OCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t20.png (PNG copy)> <./images/ROCK
+_PAPER_SCISSORS_MOORE_50x50_HighRockPop60_t50.png (PNG copy)> <./images/ROCK_PA
+PER_SCISSORS_MOORE_50x50_HighRockPop60_t75.png (PNG copy)> <./images/ROCK_PAPER
+_SCISSORS_MOORE_50x50_HighRockPop60_t100.png (PNG copy)> <./images/50x50_60Rock
+Dist_Rock.png> <./images/50x50_60RockDist_Paper.png> <./images/50x50_60RockDist
+_Scissors.png>]
+<images/50x50_60RockDist_RockHG.png, id=286, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_RockHG.png Graphic file (type png)
+
+<use images/50x50_60RockDist_RockHG.png>
+Package pdftex.def Info: images/50x50_60RockDist_RockHG.png used on input line 
+1316.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_60RockDist_PaperHG.png, id=287, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_PaperHG.png Graphic file (type png)
+
+<use images/50x50_60RockDist_PaperHG.png>
+Package pdftex.def Info: images/50x50_60RockDist_PaperHG.png used on input line
+ 1320.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_60RockDist_ScissorsHG.png, id=288, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_ScissorsHG.png Graphic file (type png)
+
+<use images/50x50_60RockDist_ScissorsHG.png>
+Package pdftex.def Info: images/50x50_60RockDist_ScissorsHG.png used on input l
+ine 1324.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+
+<images/50x50_60RockDist_IndividualRock.png, id=289, 1485.55pt x 834.11626pt>
+File: images/50x50_60RockDist_IndividualRock.png Graphic file (type png)
+
+<use images/50x50_60RockDist_IndividualRock.png>
+Package pdftex.def Info: images/50x50_60RockDist_IndividualRock.png used on inp
+ut line 1328.
+(pdftex.def)             Requested size: 314.40001pt x 176.53143pt.
+ [21
+
+ <./images/50x50_60RockDist_RockHG.png> <./images/50x50_60RockDist_PaperHG.png>
+ <./images/50x50_60RockDist_ScissorsHG.png> <./images/50x50_60RockDist_Individu
+alRock.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6008 strings out of 493029
- 103907 string characters out of 6136234
+ 6158 strings out of 493029
+ 111577 string characters out of 6136234
  159663 words of memory out of 5000000
- 9286 multiletter control sequences out of 15000+600000
+ 9406 multiletter control sequences out of 15000+600000
  58357 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,43p,755b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/
-fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit
-.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/typ
-e1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (18 pages, 3226461 bytes).
+ 42i,13n,43p,782b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr
+/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips
+/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/te
+xmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+bx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy8.pfb>
+Output written on main.pdf (22 pages, 5040824 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 344 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 671 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 821 words of extra memory for PDF output out of 10000 (max. 10000000)
 
