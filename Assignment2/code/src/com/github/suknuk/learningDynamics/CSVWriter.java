@@ -3,7 +3,10 @@ package com.github.suknuk.learningDynamics;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.List;
+
+import com.github.suknuk.learningDynamics.GameInfo.Strategy;
 
 public class CSVWriter {
 	
@@ -14,11 +17,19 @@ public class CSVWriter {
 	
 	private int size;
 	
-	public CSVWriter(int simulations, int size){
+	private int round;
+	private Strategy whichAction;
+	
+	public CSVWriter(int simulations, int size, Strategy whichAction, Game game){
 		this.simulations = simulations;
 		this.size = size;
+		this.round = 0;
+		this.whichAction = whichAction;
 		try {
-			pw = new PrintWriter(new File("results.csv"));
+			
+			String filename = "results_"+ game.x + "_" + game.neighborhood + "_" + game.imitationMethod + "_" + whichAction + ".csv";
+			
+			pw = new PrintWriter(new File(filename));
 			sb = new StringBuilder();
 			
 	        sb.append("round");
@@ -45,14 +56,20 @@ public class CSVWriter {
 		}
 	}
 	
-	public void appendEntries(int round, List<Integer> level) {
+	public void appendEntries(List<Game> myGames) {
+		
+		List<Integer> level = new ArrayList<Integer>();
+		for (Game game:myGames){
+			level.add(game.getActionLevel(whichAction));
+		}
+		
 		
 		double min = level.get(0)/(double)this.size;
 		double max = level.get(0)/(double)this.size;
 		double average = 0;
 		double stdev;
 		
-        sb.append(round);
+        sb.append(this.round);
         for (Integer i:level) {
         	double fraction = ((double)i)/((double)this.size);
         	if (fraction < min) {
@@ -90,6 +107,8 @@ public class CSVWriter {
         sb.append(String.format("%.4f", stdev));
         
         sb.append('\n');
+        
+        this.round++;
 	}
 	
 	public void closeFile(){

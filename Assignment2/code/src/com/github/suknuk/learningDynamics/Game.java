@@ -1,11 +1,13 @@
 package com.github.suknuk.learningDynamics;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import com.github.suknuk.learningDynamics.GameInfo.GameType;
 import com.github.suknuk.learningDynamics.GameInfo.ImitationMethod;
 import com.github.suknuk.learningDynamics.GameInfo.Neighborhood;
+import com.github.suknuk.learningDynamics.GameInfo.Strategies;
 import com.github.suknuk.learningDynamics.GameInfo.Strategy;
 
 public class Game {
@@ -22,19 +24,24 @@ public class Game {
 	GameInfo gameInfo;
 	Neighborhood neighborhood;
 	ImitationMethod imitationMethod;
+	Strategies strategies;
+	List<Integer> strategyDistribution;
 	
-	public Game(int x, int y, GameType gameType, Neighborhood neighborhood, ImitationMethod imitationMethod) {
+	public Game(int x, int y, GameType gameType, Neighborhood neighborhood, ImitationMethod imitationMethod, 
+			Strategies strategies, List<Integer> strategyDistribution) {
 		this.x = x;
 		this.y = y;
 		this.playedRounds = 0;
 		this.gameInfo = new GameInfo(gameType);
 		this.neighborhood = neighborhood;
 		this.imitationMethod = imitationMethod;
+		this.strategies = strategies;
+		this.strategyDistribution = strategyDistribution;
 		
 		this.map = new Player[x][y];
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
-				this.map[i][j] = new Player();
+				this.map[i][j] = new Player(this.strategies, this.strategyDistribution);
 			}
 		}
 	}
@@ -52,7 +59,7 @@ public class Game {
 		Player[][] tmpMap = new Player[x][y];
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
-				tmpMap[i][j] = new Player();
+				tmpMap[i][j] = new Player(this.strategies, this.strategyDistribution);
 			}
 		}
 		
@@ -133,7 +140,7 @@ public class Game {
 				map[i][j].setPayoff(0);
 				
 				for (Player p: this.getNeighbors(i, j)){
-					map[i][j].addPayoff(this.gameInfo.calculatePayoff(map[i][j], p));
+					map[i][j].addPayoff(this.gameInfo.calculatePayoff(map[i][j], p, this.strategies));
 				}
 			}
 		}
