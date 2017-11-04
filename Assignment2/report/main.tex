@@ -15,6 +15,8 @@
 
 \usepackage{array}
 
+\usepackage{multirow}
+
 \usepackage{color,array}
 
 \definecolor{mygray}{gray}{0.6} %custom color for text
@@ -55,6 +57,8 @@
 	{\scshape\Large INFO-F-409 - Learning Dynamics\par}
 	\vspace{1.5cm}
 	{\huge\bfseries {Assignment Two\par}}
+	\vspace{0.5cm}
+	{\Large Evolutionary dynamics in a spatial context\par}
 	\vspace{2cm}
 	{\Large Raymond Lochner - 000443637\par}
 	\vspace{0.5cm}
@@ -779,7 +783,7 @@ The $N$ variable reduces this probability - more neighbors lead to a slightly sm
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Mean = $0.4711$ and deviation = $0.0239$. The trend continues: lower deviation, convergence after about 10 rounds. Comparing this lattice size to the old update mechanism, we don't observe the cooperation block creation.
+	Mean = $0.4711$ and deviation = $0.0239$. The trend continues: lower deviation, convergence after about 10 rounds. Comparing this lattice size to the old update mechanism, we don't observe the cooperative block creation.
 \end{subfigure}
 
 \end{figure}
@@ -849,7 +853,7 @@ The $N$ variable reduces this probability - more neighbors lead to a slightly sm
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Mean = $0.473$ and deviation = $0.0117$. Same observation as previous lattice size.
+	Mean = $0.473$ and deviation = $0.0117$. Same observation as previous lattice size. In the graphical representation we can observe that no stationary blocks are being formed.
 \end{subfigure}
 
 \end{figure}
@@ -932,7 +936,9 @@ The $N$ variable reduces this probability - more neighbors lead to a slightly sm
 
 We can now have a combined look at the results of the experiments and investigate their differences.
 
-\begin{table}[H]
+
+
+\begin{table}[]
 \centering
 \caption{Combined Experiment Results}
 \begin{tabular}{l|l|l|l|l|l|l|l}
@@ -944,14 +950,125 @@ Convergence & 10     & 10     & 10     & 10     & 10     & 10          &  \\ \cl
 \end{tabular}
 \end{table}
 
+
 From these results we can conclude that the mean stays relatively the same, no matter the lattice size. The deviation is being reduced with an increasing lattice size and the fields converge all at about the same number of rounds player: 10. Changing the neighborhood method to Von Neumann, the only difference we can observe is a slight reduction of the deviation.
 
+\hrulefill
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Part Three - Rock, Paper, Scissors}
+
+For this extra part we will investigate a game with three actions: Rock, Paper, Scissors!
+
+\begin{figure}[H]
+  \begin{minipage}[b]{0.40\linewidth}
+\includegraphics[width=1\linewidth]{Rock-paper-scissors}
+  \end{minipage}%
+  \begin{minipage}[b]{0.60\linewidth}
+    \centering%
+\begin{tabular}{cc|c|c|c|}
+\cline{3-5}
+                                                  &          & \multicolumn{3}{c|}{Player Two} \\ \cline{3-5} 
+                                                  &          & Rock    & Paper    & Scissors   \\ \hline
+\multicolumn{1}{|c|}{\multirow{3}{*}{Player One}} & Rock     & 0,0     & -1,1     & 1,-1       \\ \cline{2-5} 
+\multicolumn{1}{|c|}{}                            & Paper    & 1,-1    & 0,0      & -1,1       \\ \cline{2-5} 
+\multicolumn{1}{|c|}{}                            & Scissors & -1,1    & 1,-1     & 0,0        \\ \hline
+\end{tabular}
+    \par\vspace{0pt}
+  \end{minipage}
+\caption{Rock, Paper, Scissors}
+\end{figure}
+
+
+This game has obvious mixed strategy Nash Equilibria with p(Rock)=p(Paper)=p(Scissors)=$\frac{1}{3}$. We shall investigate the effect of various starting population distributions and the effect this may have on the population of the lattice.
+
+The following graphical lattice representation will use the following colors with the following actions:
+\begin{itemize}[noitemsep]
+  \item Rock - Red
+  \item Paper - Blue
+  \item Scissors - Green
+\end{itemize}
+
+
+
 \newpage
-\section{Part Three}
+\begin{landscape}
+\subsection{50x50, Equal starting distribution, Highest earner, Moore}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Rock - Paper - Scissors, Moore, 50x50}
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_EqualDist_Rock}
+		\caption{Rock population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_EqualDist_Paper}
+		\caption{Paper population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_EqualDist_Scissors}
+		\caption{Scissors population}
+	\end{subfigure}
+\end{figure}
+
+In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state.
+
+\end{landscape}
+
+
+
+
+
+
+
+
 
 \end{document}

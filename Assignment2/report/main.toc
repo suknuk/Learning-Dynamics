@@ -19,4 +19,5 @@
 \contentsline {subsection}{\numberline {2.2}Von Neumann Neighborhood}{14}
 \contentsline {subsubsection}{\numberline {2.2.1}50x50}{14}
 \contentsline {subsection}{\numberline {2.3}Analysing the results}{15}
-\contentsline {section}{\numberline {3}Part Three}{16}
+\contentsline {section}{\numberline {3}Part Three - Rock, Paper, Scissors}{15}
+\contentsline {subsection}{\numberline {3.1}50x50, Equal starting distribution, Highest earner, Moore}{16}
