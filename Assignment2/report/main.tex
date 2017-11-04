@@ -1059,11 +1059,80 @@ The following graphical lattice representation will use the following colors wit
 	\end{subfigure}
 \end{figure}
 
-In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state.
+In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state. This does suspiciously look like a dynamic system with a circular population. To show that this is the case, we shall investigate non-equal starting populations.
 
 \end{landscape}
 
 
+
+\newpage
+\begin{landscape}
+\subsection{50x50, Increased Rock population, Highest earner, Moore}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_50x50_HighRockPop_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Rock(40) - Paper(30) - Scissors(30), Moore, 50x50}
+\end{figure}
+
+
+\begin{figure}[H]
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_Rock}
+		\caption{Rock population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_Paper}
+		\caption{Paper population}
+	\end{subfigure}%
+	\begin{subfigure}{0.53\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_Scissors}
+		\caption{Scissors population}
+	\end{subfigure}
+\end{figure}
+
+We observe that the oscillating wave is larger than in the first experiment. Here, all populations oscillate from $0.31$ to $0.356$. The spike in the max curve in the rock population at $t=100$ and $t=150$ can be explained due to a random composition of the lattice. But it also shows us that the population goes back to oscillating to the original state, even when there is a influence like this. Changing which population has the highest percentage at $t=0$ does result in the same outcome.
+
+\end{landscape}
 
 
 
