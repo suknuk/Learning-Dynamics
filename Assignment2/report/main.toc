@@ -21,6 +21,6 @@
 \contentsline {subsection}{\numberline {2.3}Analysing the results}{15}
 \contentsline {section}{\numberline {3}Part Three - Rock, Paper, Scissors}{15}
 \contentsline {subsection}{\numberline {3.1}50x50, Equal starting distribution, Highest earner, Moore}{16}
-\contentsline {subsection}{\numberline {3.2}50x50, Increased Rock population(40,30,30) , Highest earner, Moore}{17}
-\contentsline {subsection}{\numberline {3.3}50x50, Increased Rock population(50,25,25) , Highest earner, Moore}{18}
-\contentsline {subsection}{\numberline {3.4}50x50, Increased Rock population(60,20,20) , Highest earner, Moore}{20}
+\contentsline {subsection}{\numberline {3.2}50x50, Increased Rock population(40,30,30) , Highest earner, Moore}{18}
+\contentsline {subsection}{\numberline {3.3}50x50, Increased Rock population(50,25,25) , Highest earner, Moore}{20}
+\contentsline {subsection}{\numberline {3.4}50x50, Increased Rock population(60,20,20) , Highest earner, Moore}{22}

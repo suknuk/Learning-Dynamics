@@ -966,6 +966,7 @@ For this extra part we will investigate a game with three actions: Rock, Paper, 
 \begin{figure}[H]
   \begin{minipage}[b]{0.40\linewidth}
 \includegraphics[width=1\linewidth]{Rock-paper-scissors}
+\caption{Rock, Paper, Scissors}
   \end{minipage}%
   \begin{minipage}[b]{0.60\linewidth}
     \centering%
@@ -977,13 +978,13 @@ For this extra part we will investigate a game with three actions: Rock, Paper, 
 \multicolumn{1}{|c|}{}                            & Paper    & 1,-1    & 0,0      & -1,1       \\ \cline{2-5} 
 \multicolumn{1}{|c|}{}                            & Scissors & -1,1    & 1,-1     & 0,0        \\ \hline
 \end{tabular}
+\caption{Payoff Matrix}
     \par\vspace{0pt}
   \end{minipage}
-\caption{Rock, Paper, Scissors}
 \end{figure}
 
 
-This game has obvious mixed strategy Nash Equilibria with p(Rock)=p(Paper)=p(Scissors)=$\frac{1}{3}$. We shall investigate the effect of various starting population distributions and the effect this may have on the population of the lattice.
+This game has a obvious mixed strategy Nash Equilibria with p(Rock)=p(Paper)=p(Scissors)=$\frac{1}{3}$. We shall investigate the effect of various starting population distributions and the effect this may have on the population of the lattice.
 
 The following graphical lattice representation will use the following colors with the following actions:
 \begin{itemize}[noitemsep]
@@ -1059,9 +1060,45 @@ The following graphical lattice representation will use the following colors wit
 	\end{subfigure}
 \end{figure}
 
-In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$ between $0.33$ and $0.337$. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state. This does suspiciously look like a dynamic system with a circular population. To show that this is the case, we shall investigate non-equal starting populations.
+In the graphical representation we can observe a non stationary population containing all three actions. Contrary to the experiments done in the first two parts, in this experiment we don't observe a clear convergence point. Indeed, population percentage of all three actions seem to be oscillating around $\frac{1}{3}$ between $0.33$ and $0.337$. To find the real oscillating range we have to look at individual simulations, as the average of all simulations do most likely smooth out the result. Interesting also is the initial population change: Rocks increase their population while paper decreases its population for a very short while before rising. The Scissors population is decreasing in the beginning even more before going into a oscillating state. This does suspiciously look like a dynamic system with a circular population change. To show that this is the case, we shall investigate non-equal starting populations and individual simulations.
 
 \end{landscape}
+
+\newpage
+\begin{figure}[H]
+\begin{subfigure}{.65\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_33RockDist_IndividualGame}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_33RockDist_Rock}
+	\end{subfigure}
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_33RockDist_Paper}
+	\end{subfigure}	
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_33RockDist_Scissors}
+	\end{subfigure}		
+	
+\end{subfigure}%
+\begin{subfigure}{.35\textwidth}
+	The first graph shows the population change of a single lattice over played rounds. We can see the cyclic population change: A decrease in the paper population causes a rise in the rock population. The increase of the rock population causes a decrease of the scissor population. A higher rock population causes the paper population to rise again which gives rise to the scissor population. This causes a decrease in the paper population and we enter a cycle of population change.
+
+
+	All three populations have about the same distribution. As suspected on the previous average oscillating range, here we can identify that the real oscillating range is actually between $0.28$ and $0.39$ with some cases with a higher radius.
+	
+	
+	For the next experiment, we shall investigate the effect of a higher rock starting population (40,30,30) and see if the oscillating effect increases or stays the same.
+\end{subfigure}
+
+\end{figure}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -1130,14 +1167,47 @@ In the graphical representation we can observe a non stationary population conta
 	\end{subfigure}
 \end{figure}
 
-We observe that the oscillating wave is larger than in the first experiment. Here, all populations oscillate from $0.31$ to $0.357$. The spike in the max curve in the rock population at $t=100$ and $t=150$ can be explained due to a random composition of the lattice. But it also shows us that the population goes back to oscillating to the original state, even when there is a influence like this. Changing which population has the highest percentage at $t=0$ does result in the same outcome.
+We observe that the averaged oscillating wave is larger than in the first experiment. Here, all populations oscillate from $0.31$ to $0.357$. The spike in the max curve in the rock population at $t=100$ and $t=150$ can be explained due to a random composition of the lattice. But it also shows us that the population goes back to oscillating to the original state, even when there is a influence like this. Changing which population has the highest percentage at $t=0$ does result in the same outcome. To see if the individual oscillating range has changed, we need to again look at individual simulations.
 
 \end{landscape}
 
 
+\newpage
+\begin{figure}[H]
+\begin{subfigure}{.65\textwidth}
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_IndividualGame}
+	\end{subfigure}
+
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_RockGames}
+	\end{subfigure}
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_PaperGames}
+	\end{subfigure}	
+	
+	\begin{subfigure}{1\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_40RockDist_ScissorsGames}
+	\end{subfigure}		
+	
+\end{subfigure}%
+\begin{subfigure}{.35\textwidth}
+
+	The first graph shows the population change of a single lattice over played rounds. We observe the same results as in the previous experiment of cyclic population change.
+	
+	Individual simulations do however show a significant difference from the previous experiment: The population change is mostly synchronized between the simulations. This is also why the average population oscillation on the previous page is augmented. Here we see that the oscillating range was slightly increased to the range of $0.27$ to $0.4$.
+	
+	
+	For the next experiment, we shall investigate the effect of a even higher rock starting population (50,25,25) and look at the outcome on the oscillating range.
+\end{subfigure}
+
+\end{figure}
 
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{landscape}
 \subsection{50x50, Increased Rock population(50,25,25) , Highest earner, Moore}
@@ -1204,42 +1274,46 @@ We observe that the oscillating wave is larger than in the first experiment. Her
 	\end{subfigure}
 \end{figure}
 
-To obtain a clear picture of these results, we must also look at the frequency diagrams of each population state. But it is clear that some lattices converge to a pure strategy state and some lattices continue to oscillate.
+The population oscillation seems to be very small, but this is most likely due to the various simulations being not synchronous and averaging each other out. We do however find the first few pure strategy fields, converging to a total rock/paper/scissor lattice.
 
+To obtain a clear picture of these results, we must also look at the frequency diagrams of each population state and at individual simulations. The only result we can see right now is that some lattices converge to a pure strategy state and some lattices continue to oscillate.
 
 \end{landscape}
+
 \newpage
 
 \begin{figure}[H]
-\begin{subfigure}{.65\textwidth}
-	\begin{subfigure}{1\textwidth}
+	\begin{subfigure}{0.52\textwidth}
 		\includegraphics[width=1\linewidth]{50x50_50RockDist_RockHG}
-	\end{subfigure}
-
-	\begin{subfigure}{1\textwidth}
-		\includegraphics[width=1\linewidth]{50x50_50RockDist_PaperHG}
-	\end{subfigure}
-	
-	\begin{subfigure}{1\textwidth}
-		\includegraphics[width=1\linewidth]{50x50_50RockDist_ScissorsHG}
-	\end{subfigure}	
-	
-	\begin{subfigure}{1\textwidth}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
 		\includegraphics[width=1\linewidth]{50x50_50RockDist_IndividualRock}
-	\end{subfigure}		
+	\end{subfigure}
 	
-\end{subfigure}%
-\begin{subfigure}{.35\textwidth}
-	All three populations have about the same distribution. To find out if the oscillating radius increased again with a higher initial population, we look at many individual plotted population graphs. And indeed, the radius increased again, this time from $0.28$ to $0.39$ for the simulations that do not converge to a pure strategy.
-\end{subfigure}
-
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_PaperHG}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_IndividualPaper}
+	\end{subfigure}
+	
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_ScissorsHG}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_50RockDist_IndividualScissors}
+	\end{subfigure}
 \end{figure}
 
+	We observe that about $15\%$ of simulations converge to a pure strategy field by looking at the frequency diagram. They have all have a very similar distribution. We can confirm the hypothesis that the average is flattened out because the simulations are not synchronous any more. The oscillating range however stayed about the same, ranging from $0.28$ to $0.395$ for all three populations. Observable is also that the first 40 rounds are much more \textit{chaotic} compared to the previous experiment.
 
 
 
 
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \begin{landscape}
 \subsection{50x50, Increased Rock population(60,20,20) , Highest earner, Moore}
