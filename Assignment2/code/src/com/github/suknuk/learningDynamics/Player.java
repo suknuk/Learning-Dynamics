@@ -12,9 +12,9 @@ public class Player {
 	private int payoff;
 	private Strategy strategy;
 	
-	public Player(Strategies strategies, List<Integer> strategyDistribution){
+	public Player(Strategies strategies, List<Integer> strategyDistribution, int actionPercentage){
 		this.payoff = 0;
-		int randomNumber = random.nextInt(100);
+		int randomNumber = random.nextInt(actionPercentage);
 		
 		if (strategies == Strategies.TWO){	
 			if (randomNumber >= strategyDistribution.get(0)) {

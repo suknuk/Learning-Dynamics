@@ -26,9 +26,10 @@ public class Game {
 	ImitationMethod imitationMethod;
 	Strategies strategies;
 	List<Integer> strategyDistribution;
+	int actionPercentage;
 	
 	public Game(int x, int y, GameType gameType, Neighborhood neighborhood, ImitationMethod imitationMethod, 
-			Strategies strategies, List<Integer> strategyDistribution) {
+			Strategies strategies, List<Integer> strategyDistribution, int actionPercentage) {
 		this.x = x;
 		this.y = y;
 		this.playedRounds = 0;
@@ -37,11 +38,12 @@ public class Game {
 		this.imitationMethod = imitationMethod;
 		this.strategies = strategies;
 		this.strategyDistribution = strategyDistribution;
+		this.actionPercentage = actionPercentage;
 		
 		this.map = new Player[x][y];
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
-				this.map[i][j] = new Player(this.strategies, this.strategyDistribution);
+				this.map[i][j] = new Player(this.strategies, this.strategyDistribution, this.actionPercentage);
 			}
 		}
 	}
@@ -59,7 +61,7 @@ public class Game {
 		Player[][] tmpMap = new Player[x][y];
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
-				tmpMap[i][j] = new Player(this.strategies, this.strategyDistribution);
+				tmpMap[i][j] = new Player(this.strategies, this.strategyDistribution, this.actionPercentage);
 			}
 		}
 		

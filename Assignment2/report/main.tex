@@ -218,7 +218,7 @@ The tested games are:
 
 \end{figure}
 
-Increasing the lattice to 8x8, we get our first pure cooperation and mixed strategy fields. The configuration converges after 4 rounds, but most fields end up as being pure defector lattices.
+Increasing the lattice to 8x8, we get our first pure cooperation and mixed strategy lattices. This is due to the small chance that we get the previously specified 2x2 field of cooperation. The configuration converges after 4 rounds, but most fields end up as being pure defector lattices.
 
 \newpage
 
@@ -460,7 +460,7 @@ A 50x50 lattice configuration results in a highly cooperative environment about 
 \begin{subfigure}{.45\textwidth}
 	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.3914$ and deviation = $0.0263$. The mean with this neighborhood type is about half as the mean from a Moore neighborhood game with the same lattice size. The deviation is however much smaller.
 	
-	The configuration converges after 20 rounds. Looking at the differences of the graphical representation, using the Von Neumann neighborhood results in non stationary clusters as we have with a Moore neighborhood. The cooperation level over time also changes, which we can observe in the curve. It does not drop too much at the first few rounds and then quickly converges to $\sim 0.4\%$ with the maximum and minimum level not being too far away which is why the deviation is much smaller compared to the Moore neighborhood. This is because of the influence caused by the defector players in the first few rounds is reduced with fewer neighbors.
+	The configuration converges after 20 rounds. Looking at the differences of the graphical representation, using the Von Neumann neighborhood results in non stationary clusters as we have with a Moore neighborhood. The cooperation level over time also changes, which we can observe in the curve. We also do not get any pure strategy lattices, only mixed strategy ones. It does not drop too much at the first few rounds and then quickly converges to $\sim 0.4\%$ with the maximum and minimum level not being too far away which is why the deviation is much smaller compared to the Moore neighborhood.  This is because of the influence caused by the defector players in the first few rounds is reduced with fewer neighbors.
 	
 	
 \end{subfigure}
@@ -510,7 +510,7 @@ with the Moore neighborhood or
 
 \[ P_{ij} = \frac{1+ \frac{W_j-W_i}{40}}{2} \]
 
-with the Von Neumann neighborhood. This probabilistic method assures enables a \textit{mixed} strategy of replicating. Contrary to a \textit{pure} strategy as experimented with in part one, the replicator rule assigns a probability of choosing the strategy of the other player by taking the difference of the payoff between the two players. The greater the difference of $W_j - W_i$, the more likely it is to replicate the action
+with the Von Neumann neighborhood. This probabilistic method enables a \textit{mixed} strategy of replicating. Contrary to a \textit{pure} strategy as experimented with in part one, the replicator rule assigns a probability of choosing the strategy of the other player by taking the difference of the payoff between the two players. The greater the difference of $W_j - W_i$, the more likely it is to replicate the action
 
 The $N$ variable reduces this probability - more neighbors lead to a slightly smaller probability of replicating the opponent strategy. It makes sense to have a probabilistic update mechanism as many real \textit{games} have mixed strategies instead of pure ones - it allows for the modelling of phenomena’s we can see in nature for example.
 
@@ -924,7 +924,7 @@ The $N$ variable reduces this probability - more neighbors lead to a slightly sm
 	\end{subfigure}
 \end{subfigure}%
 \begin{subfigure}{.45\textwidth}
-	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4461$ and deviation = $0.0104$. Contrary to the observations of part one when changing the neighborhood type, we can not observe a large difference when changing to the Von Neumann method. The only difference is a slight reduction of the deviation
+	Changing the neighborhood to the \textit{Von Neumann} mode, we get a mean = $0.4461$ and deviation = $0.0104$. Contrary to the observations of part one when changing the neighborhood type, we can not observe a large difference when changing to the Von Neumann method. The only difference is a slightly larger mean and half the deviation.
 \end{subfigure}
 
 \end{figure}
@@ -951,7 +951,9 @@ Convergence & 10     & 10     & 10     & 10     & 10     & 10          &  \\ \cl
 \end{table}
 
 
-From these results we can conclude that the mean stays relatively the same, no matter the lattice size. The deviation is being reduced with an increasing lattice size and the fields converge all at about the same number of rounds player: 10. Changing the neighborhood method to Von Neumann, the only difference we can observe is a slight reduction of the deviation.
+From these results we can conclude that the mean stays relatively the same, no matter the lattice size. This is a big difference to the previous update mechanism where the mean would increase with an increase in the lattice size. The deviation is being reduced with an increasing lattice size and the fields converge all at about the same number of rounds player: 10. Here the difference to the previous exercise is that the deviation is much smaller and gets continuous smaller instead of rising with a lattice size of 20x20 and then decreasing with a lattice size of 50x50.
+
+Changing the neighborhood method to Von Neumann, the only difference we can observe is a slight reduction of the deviation. Comparing the result to the previous exercise, the replicator method results in a small increase of the mean and half the deviation.
 
 \hrulefill
 
@@ -993,7 +995,7 @@ The following graphical lattice representation will use the following colors wit
   \item Scissors - Green
 \end{itemize}
 
-
+To keep this experiment rather simple, we will only be using the Moore neighborhood and the highest earner update mechanism.
 
 \newpage
 \begin{landscape}
@@ -1305,7 +1307,7 @@ To obtain a clear picture of these results, we must also look at the frequency d
 	\end{subfigure}
 \end{figure}
 
-	We observe that about $15\%$ of simulations converge to a pure strategy field by looking at the frequency diagram. They have all have a very similar distribution. We can confirm the hypothesis that the average is flattened out because the simulations are not synchronous any more. The oscillating range however stayed about the same, ranging from $0.28$ to $0.395$ for all three populations. Observable is also that the first 40 rounds are much more \textit{chaotic} compared to the previous experiment.
+	We observe that about $15\%$ of simulations converge to a pure strategy field by looking at the frequency diagram. They have all have a very similar distribution. We can confirm the hypothesis that the average is flattened out because the simulations are not synchronous any more. The oscillating range however stayed about the same, ranging from $0.28$ to $0.395$ for all three populations. Observable is also that the first 40 rounds are much more \textit{chaotic} compared to the previous experiment. We shall investigate a even more rock bias population (60,20,20) to see if the this trend continues.
 
 
 
@@ -1380,37 +1382,110 @@ To obtain a clear picture of these results, we must also look at the frequency d
 	\end{subfigure}
 \end{figure}
 
-We will again look at the frequency diagram and individual plotting.
+Before coming to any conclusions, we need to look at the frequency diagrams and the individual plots. On a first look, we see that the oscillating curve is even more flattened than in previous experiments.
+
 \end{landscape}
+
+
 \newpage
 
 \begin{figure}[H]
-\begin{subfigure}{.65\textwidth}
-	\begin{subfigure}{1\textwidth}
+	\begin{subfigure}{0.52\textwidth}
 		\includegraphics[width=1\linewidth]{50x50_60RockDist_RockHG}
-	\end{subfigure}
-
-	\begin{subfigure}{1\textwidth}
-		\includegraphics[width=1\linewidth]{50x50_60RockDist_PaperHG}
-	\end{subfigure}
-	
-	\begin{subfigure}{1\textwidth}
-		\includegraphics[width=1\linewidth]{50x50_60RockDist_ScissorsHG}
-	\end{subfigure}	
-	
-	\begin{subfigure}{1\textwidth}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
 		\includegraphics[width=1\linewidth]{50x50_60RockDist_IndividualRock}
-	\end{subfigure}		
+	\end{subfigure}
 	
-\end{subfigure}%
-\begin{subfigure}{.35\textwidth}
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_PaperHG}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_IndividualPaper}
+	\end{subfigure}
 	
-	We find a higher percentage of pure strategy lattices than in the previous experiment. We do however also find that the deviation for mixed strategies is less than in the previous example. This is mirrored by the oscillating effect, which is now between $0.3$ and $0.369$ - less than the previous example.
-\end{subfigure}
-
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_ScissorsHG}
+	\end{subfigure}%
+	\begin{subfigure}{0.52\textwidth}
+		\includegraphics[width=1\linewidth]{50x50_60RockDist_IndividualScissors}
+	\end{subfigure}
 \end{figure}
 
+	
+	We find a even higher percentage of pure strategy lattices than in the previous experiment($25\%$ instead of $15\%$). Lattices that do end up in the oscillating state do however need more rounds to reach it - about 60 rounds in this experiment and only 40 in the previous experiment. When the oscillating state is reached, the range is less than previous: from $0.3$ to $0.369$. A possible reason for this could be that the previous configuration (50,25,25) is more \textit{stable}, i.e. the circle the population change does is not too much affected by a single lower or higher population. In this experiment on the other hand, we have more than double pure strategy lattices. The increased difference of the starting configuration could mean that the cyclic movement of the population is not stable and hence forced towards the outside(pure strategy) or inside (mixed strategy). By forcing the population to the inside($p = \frac{1}{3}$), it could mean that the population is pushed more to the inside than the more stable configuration of the previous experiment.
 
 
+As a last experiment, we shall investigate the convergence with a higher lattice size: 100x100 for the starting population (50,25,25)
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\begin{landscape}
+\subsection{100x100, Increased Rock population(50,25,25) , Highest earner, Moore}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t00}
+  \caption{t=0}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t01}
+  \caption{t=1}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t05}
+  \caption{t=5}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t10}
+  \caption{t=10}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t20}
+  \caption{t=20}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t50}
+  \caption{t=50}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t75}
+  \caption{t=75}
+\end{subfigure}%
+\begin{subfigure}{.20\textwidth}
+  \centering
+  \includegraphics[width=0.95\linewidth]{ROCK_PAPER_SCISSORS_MOORE_100x100_HighRockPop50_t100}
+  \caption{t=100}
+\end{subfigure}
+\caption{Rock(50) - Paper(25) - Scissors(25), Moore, 100x100}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{subfigure}{0.75\textwidth}
+		\includegraphics[width=1\linewidth]{100x100_50RockDist_IndividualRock}
+	\end{subfigure}%
+	\begin{subfigure}{0.75\textwidth}
+		\includegraphics[width=1\linewidth]{100x100_50RockDist_Rock}
+	\end{subfigure}
+	
+\end{figure}
+
+Oscillating effect between $0.314$ and $0.36$ and no pure strategy lattices as was the case with the 50x50 lattice size configuration. We can interpret this that larger lattice sized are more robust to biased starting population, such that they return to a very stable cyclic movement.
+
+To conclude these Rock - Paper - Scissor experiments, we found clear indices of cyclic population changes which are quite fascinating - it would be interesting to investigate changes in the payoff matrix and visualize relevant vector fields(as shown in the Network Reciprocity lecture).
+
+One could also continue these experiments by finding the stable ratios of population percentage, use different initial population percentages, different lattice sizes or different update mechanisms. 
+
+
+\end{landscape}
 
 \end{document}

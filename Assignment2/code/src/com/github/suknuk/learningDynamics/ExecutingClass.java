@@ -15,20 +15,21 @@ public class ExecutingClass {
 	public static void main(String[] args) {
 		System.out.println("Start");
 
-		int simultaneousGames = 50;
-		int dim = 50; //dimensions (dim x dim)
-		int rounds = 100;
+		int simultaneousGames = 100;
+		int dim = 100; //dimensions (dim x dim)
+		int rounds = 200;
 		GameType whatGameType = GameType.ROCK_PAPER_SCISSORS;
 		Neighborhood whatNeighborhoodType = Neighborhood.MOORE;
 		ImitationMethod whatImitationMethod = ImitationMethod.HIGHEST_EARNER;
 		Strategies howManyStrategies = Strategies.THREE;
-		List<Integer> strategyDistribution = Arrays.asList(80,60);
+		List<Integer> strategyDistribution = Arrays.asList(50,25);
+		int actionPercentage = 100;
 		
 		
 		List<Game> myGames = new ArrayList<Game>();
 		
 		for (int i = 0; i < simultaneousGames; i++){
-			Game newGame = new Game(dim,dim, whatGameType, whatNeighborhoodType, whatImitationMethod, howManyStrategies, strategyDistribution);
+			Game newGame = new Game(dim,dim, whatGameType, whatNeighborhoodType, whatImitationMethod, howManyStrategies, strategyDistribution, actionPercentage);
 			myGames.add(newGame);
 		}
 		
@@ -38,13 +39,12 @@ public class ExecutingClass {
 		
 		for (int i = 0; i <= rounds; i++){
 			
-			
+			/*
 			DrawingClass.createImage(myGames.get(0), ""+whatGameType+"_"+whatNeighborhoodType+"_"+dim+"x"
 					+dim+"_t"+String.format("%02d", myGames.get(0).playedRounds)+".png", 
 					howManyStrategies);
+			*/
 			
-			
-			/*
 			switch(i){
 			case 0:
 			case 1:
@@ -55,11 +55,11 @@ public class ExecutingClass {
 			case 75:
 			case 100:
 				DrawingClass.createImage(myGames.get(0), ""+whatGameType+"_"+whatNeighborhoodType+"_"+dim+"x"
-						+dim+"_t"+String.format("%02d", myGames.get(0).playedRounds)+".png", 
+						+dim+ "_HighRockPop50" +"_t"+String.format("%02d", myGames.get(0).playedRounds)+".png", 
 						howManyStrategies);
 				break;
 			}
-			*/
+			
 			
 			
 			writerA.appendEntries(myGames);
