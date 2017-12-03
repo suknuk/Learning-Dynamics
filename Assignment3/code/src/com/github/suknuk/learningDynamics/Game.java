@@ -150,6 +150,10 @@ public class Game {
 		return tmp;
 	}
 	
+	public double getAverageReward(){
+		return this.getTotalReward()/((double)this.playedRounds);
+	}
+	
 	public double maxReward(){
 		return this.playedRounds * this.bandits.get(0).mean;
 	}
