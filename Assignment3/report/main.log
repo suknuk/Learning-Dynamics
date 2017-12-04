@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  3 DEC 2017 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  4 DEC 2017 10:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -678,30 +678,234 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./main.toc)
+(./main.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
-(./main.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<images/ex1_1_average_rewards.png, id=11, 1485.55pt x 834.11626pt>
+File: images/ex1_1_average_rewards.png Graphic file (type png)
+
+<use images/ex1_1_average_rewards.png>
+Package pdftex.def Info: images/ex1_1_average_rewards.png used on input line 87
+.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_Q1_reward.png, id=13, 1485.55pt x 834.11626pt>
+File: images/ex1_Q1_reward.png Graphic file (type png)
+
+<use images/ex1_Q1_reward.png>
+Package pdftex.def Info: images/ex1_Q1_reward.png used on input line 95.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_Q2_reward.png, id=14, 1485.55pt x 834.11626pt>
+File: images/ex1_Q2_reward.png Graphic file (type png)
+
+<use images/ex1_Q2_reward.png>
+Package pdftex.def Info: images/ex1_Q2_reward.png used on input line 101.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+ [1 <./images/ex1_1_average_rewards.png> <./images/ex1_Q1_reward.png>]
+<images/ex1_Q3_reward.png, id=21, 1485.55pt x 834.11626pt>
+File: images/ex1_Q3_reward.png Graphic file (type png)
+
+<use images/ex1_Q3_reward.png>
+Package pdftex.def Info: images/ex1_Q3_reward.png used on input line 107.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_Q4_reward.png, id=22, 1485.55pt x 834.11626pt>
+File: images/ex1_Q4_reward.png Graphic file (type png)
+
+<use images/ex1_Q4_reward.png>
+Package pdftex.def Info: images/ex1_Q4_reward.png used on input line 113.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+ [2 <./images/ex1_Q2_reward.png> <./images/ex1_Q3_reward.png>]
+<images/ex1_histogram_random.png, id=28, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_random.png Graphic file (type png)
+
+<use images/ex1_histogram_random.png>
+Package pdftex.def Info: images/ex1_histogram_random.png used on input line 123
+.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_histogram_egreedy00.png, id=29, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_egreedy00.png Graphic file (type png)
+
+<use images/ex1_histogram_egreedy00.png>
+Package pdftex.def Info: images/ex1_histogram_egreedy00.png used on input line 
+127.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_histogram_egreedy01.png, id=30, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_egreedy01.png Graphic file (type png)
+
+<use images/ex1_histogram_egreedy01.png>
+Package pdftex.def Info: images/ex1_histogram_egreedy01.png used on input line 
+132.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_histogram_egreedy02.png, id=31, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_egreedy02.png Graphic file (type png)
+
+<use images/ex1_histogram_egreedy02.png>
+Package pdftex.def Info: images/ex1_histogram_egreedy02.png used on input line 
+136.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_histogram_softmax1.png, id=32, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_softmax1.png Graphic file (type png)
+
+<use images/ex1_histogram_softmax1.png>
+Package pdftex.def Info: images/ex1_histogram_softmax1.png used on input line 1
+41.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_histogram_softmax01.png, id=33, 455.45157pt x 255.95625pt>
+File: images/ex1_histogram_softmax01.png Graphic file (type png)
+
+<use images/ex1_histogram_softmax01.png>
+Package pdftex.def Info: images/ex1_histogram_softmax01.png used on input line 
+145.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+ [3 <./images/ex1_Q4_reward.png> <./images/ex1_histogram_random.png (PNG copy)>
+ <./images/ex1_histogram_egreedy00.png (PNG copy)> <./images/ex1_histogram_egre
+edy01.png (PNG copy)> <./images/ex1_histogram_egreedy02.png (PNG copy)> <./imag
+es/ex1_histogram_softmax1.png (PNG copy)> <./images/ex1_histogram_softmax01.png
+ (PNG copy)>]
+<images/ex1_2_average_rewards.png, id=38, 1485.55pt x 834.11626pt>
+File: images/ex1_2_average_rewards.png Graphic file (type png)
+
+<use images/ex1_2_average_rewards.png>
+Package pdftex.def Info: images/ex1_2_average_rewards.png used on input line 16
+8.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_2_Q1_reward.png, id=39, 1485.55pt x 834.11626pt>
+File: images/ex1_2_Q1_reward.png Graphic file (type png)
+
+<use images/ex1_2_Q1_reward.png>
+Package pdftex.def Info: images/ex1_2_Q1_reward.png used on input line 176.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+ [4 <./images/ex1_2_average_rewards.png>]
+<images/ex1_2_Q2_reward.png, id=45, 1485.55pt x 834.11626pt>
+File: images/ex1_2_Q2_reward.png Graphic file (type png)
+
+<use images/ex1_2_Q2_reward.png>
+Package pdftex.def Info: images/ex1_2_Q2_reward.png used on input line 182.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_2_Q3_reward.png, id=46, 1485.55pt x 834.11626pt>
+File: images/ex1_2_Q3_reward.png Graphic file (type png)
+
+<use images/ex1_2_Q3_reward.png>
+Package pdftex.def Info: images/ex1_2_Q3_reward.png used on input line 188.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+ [5 <./images/ex1_2_Q1_reward.png> <./images/ex1_2_Q2_reward.png>]
+<images/ex1_2_Q4_reward.png, id=52, 1485.55pt x 834.11626pt>
+File: images/ex1_2_Q4_reward.png Graphic file (type png)
+
+<use images/ex1_2_Q4_reward.png>
+Package pdftex.def Info: images/ex1_2_Q4_reward.png used on input line 194.
+(pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
+
+<images/ex1_2_histogram_random.png, id=53, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_random.png Graphic file (type png)
+
+<use images/ex1_2_histogram_random.png>
+Package pdftex.def Info: images/ex1_2_histogram_random.png used on input line 2
+04.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_2_histogram_egreedy00.png, id=54, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_egreedy00.png Graphic file (type png)
+
+<use images/ex1_2_histogram_egreedy00.png>
+Package pdftex.def Info: images/ex1_2_histogram_egreedy00.png used on input lin
+e 208.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_2_histogram_egreedy01.png, id=55, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_egreedy01.png Graphic file (type png)
+
+<use images/ex1_2_histogram_egreedy01.png>
+Package pdftex.def Info: images/ex1_2_histogram_egreedy01.png used on input lin
+e 213.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_2_histogram_egreedy02.png, id=56, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_egreedy02.png Graphic file (type png)
+
+<use images/ex1_2_histogram_egreedy02.png>
+Package pdftex.def Info: images/ex1_2_histogram_egreedy02.png used on input lin
+e 217.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_2_histogram_softmax1.png, id=57, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_softmax1.png Graphic file (type png)
+
+<use images/ex1_2_histogram_softmax1.png>
+Package pdftex.def Info: images/ex1_2_histogram_softmax1.png used on input line
+ 222.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+
+<images/ex1_2_histogram_softmax01.png, id=58, 455.45157pt x 255.95625pt>
+File: images/ex1_2_histogram_softmax01.png Graphic file (type png)
+
+<use images/ex1_2_histogram_softmax01.png>
+Package pdftex.def Info: images/ex1_2_histogram_softmax01.png used on input lin
+e 226.
+(pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
+ [6 <./images/ex1_2_Q3_reward.png> <./images/ex1_2_Q4_reward.png>] [7 <./images
+/ex1_2_histogram_random.png (PNG copy)> <./images/ex1_2_histogram_egreedy00.png
+ (PNG copy)> <./images/ex1_2_histogram_egreedy01.png (PNG copy)> <./images/ex1_
+2_histogram_egreedy02.png (PNG copy)> <./images/ex1_2_histogram_softmax1.png (P
+NG copy)> <./images/ex1_2_histogram_softmax01.png (PNG copy)>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5226 strings out of 493029
- 74505 string characters out of 6136234
- 152663 words of memory out of 5000000
- 8667 multiletter control sequences out of 15000+600000
- 37088 words of font info for 27 fonts, out of 8000000 for 9000
+ 5420 strings out of 493029
+ 79904 string characters out of 6136234
+ 154663 words of memory out of 5000000
+ 8813 multiletter control sequences out of 15000+600000
+ 55367 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,43p,248b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/
-fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb>
-Output written on main.pdf (2 pages, 127999 bytes).
+ 42i,11n,43p,506b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/
+usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/publ
+ic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.
+pfb>
+Output written on main.pdf (8 pages, 1091584 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
