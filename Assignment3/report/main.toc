@@ -9,3 +9,8 @@
 \contentsline {subsection}{\numberline {2.2}Q* values for each arm}{5}
 \contentsline {subsection}{\numberline {2.3}Histogram on actions chosen}{7}
 \contentsline {subsection}{\numberline {2.4}Results}{7}
+\contentsline {section}{\numberline {3}Exercise 3}{8}
+\contentsline {subsection}{\numberline {3.1}Combined Average Reward}{8}
+\contentsline {subsection}{\numberline {3.2}Q* values for each arm}{8}
+\contentsline {subsection}{\numberline {3.3}Histogram on actions chosen}{10}
+\contentsline {subsection}{\numberline {3.4}Results}{10}

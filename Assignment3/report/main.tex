@@ -239,8 +239,63 @@ The average reward per algorithm is lower than compared to the first exercise. T
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Exercise 3}
+\subsection{Combined Average Reward}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{ex1_3_average_rewards}
+    %\caption{Two Neighborhood types}
+\end{figure}
+
+\subsection{Q* values for each arm}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{ex1_3_Q1}
+    %\caption{Two Neighborhood types}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{ex1_3_Q2}
+    %\caption{Two Neighborhood types}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{ex1_3_Q3}
+    %\caption{Two Neighborhood types}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+    \includegraphics[width=1\linewidth]{ex1_3_Q4}
+    %\caption{Two Neighborhood types}
+\end{figure}
+
+\subsection{Histogram on actions chosen}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{ex1_3_histogram_egreedytime}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{ex1_3_histogram_softmaxtime}
+\end{subfigure}%
+\end{figure}
+
+\subsection{Results}
 
 
+The new \textit{eGreedy} algorithm performs better than any other algorithm. The new \textit{Softmax} algorithm performs only better than the \textit{random} algorithm after 1000 time steps but has an increasing curve. Over a longer time-period, it would out-perform the bottom three algorithms - \textit{Random}, \textit{eGreedy 0.0} and \textit{Softmax 1}.
 
+From the Q* value graphs we can observe that the \textit{Softmax Time} method is able to find the mean value of each arm faster than the \textit{eGreedy Time} method due to its higher exploration at the beginning. It does not outperform it though, as it exploits the best arm later.
+
+We can conclude from these experiments that the best way to achieve the highest reward over time is to explore at the beginning and then only exploit after some time. The downside of the \textit{eGreedy} algorithms is that they keep exploring even though they already \textit{learned} the best arms.
 
 \end{document}
