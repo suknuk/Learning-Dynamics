@@ -67,7 +67,8 @@ public class Game {
 					if (this.gameMethod == Method.SOFTMAX) {
 						expQ = Math.exp(ba.getCurrentAvg()/this.parameter);
 					} else {
-						expQ = Math.exp(ba.getCurrentAvg()/ (4*(1000-this.playedRounds)/1000));
+						//expQ = Math.exp(ba.getCurrentAvg()/ (4*(1000-this.playedRounds)/1000));
+						expQ = Math.exp(ba.getCurrentAvg()/ (4 - (this.playedRounds)/250));
 					}
 					expQs.add(expQ);
 					expQs_sum += expQ;

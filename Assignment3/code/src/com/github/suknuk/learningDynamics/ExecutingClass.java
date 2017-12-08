@@ -4,7 +4,7 @@ public class ExecutingClass {
 
 	public static void main(String[] args) {
 
-		CSVWriter csvw = new CSVWriter("softmax01.csv");
+		CSVWriter csvw = new CSVWriter("softmaxtime.csv");
 
 		int howManyGames = 2000;
 		int rounds = 1000;
@@ -16,7 +16,7 @@ public class ExecutingClass {
 
 		Game[] game = new Game[howManyGames];
 		for (int games = 0; games < howManyGames; games++) {
-			game[games] = new Game(values, Game.Method.SOFTMAX, 0.1);
+			game[games] = new Game(values, Game.Method.SOFTMAX_TIME, 0.1);
 		}
 
 		for (int round = 0; round < rounds; round++) {
