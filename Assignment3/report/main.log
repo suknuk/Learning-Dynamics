@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  4 DEC 2017 13:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.25)  8 DEC 2017 17:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -567,19 +567,19 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 52.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -715,7 +715,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 File: images/ex1_1_average_rewards.png Graphic file (type png)
 
 <use images/ex1_1_average_rewards.png>
-Package pdftex.def Info: images/ex1_1_average_rewards.png used on input line 87
+Package pdftex.def Info: images/ex1_1_average_rewards.png used on input line 88
 .
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
@@ -723,35 +723,35 @@ Package pdftex.def Info: images/ex1_1_average_rewards.png used on input line 87
 File: images/ex1_Q1_reward.png Graphic file (type png)
 
 <use images/ex1_Q1_reward.png>
-Package pdftex.def Info: images/ex1_Q1_reward.png used on input line 95.
+Package pdftex.def Info: images/ex1_Q1_reward.png used on input line 96.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_Q2_reward.png, id=14, 1485.55pt x 834.11626pt>
 File: images/ex1_Q2_reward.png Graphic file (type png)
 
 <use images/ex1_Q2_reward.png>
-Package pdftex.def Info: images/ex1_Q2_reward.png used on input line 101.
+Package pdftex.def Info: images/ex1_Q2_reward.png used on input line 102.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [1 <./images/ex1_1_average_rewards.png> <./images/ex1_Q1_reward.png>]
 <images/ex1_Q3_reward.png, id=21, 1485.55pt x 834.11626pt>
 File: images/ex1_Q3_reward.png Graphic file (type png)
 
 <use images/ex1_Q3_reward.png>
-Package pdftex.def Info: images/ex1_Q3_reward.png used on input line 107.
+Package pdftex.def Info: images/ex1_Q3_reward.png used on input line 108.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_Q4_reward.png, id=22, 1485.55pt x 834.11626pt>
 File: images/ex1_Q4_reward.png Graphic file (type png)
 
 <use images/ex1_Q4_reward.png>
-Package pdftex.def Info: images/ex1_Q4_reward.png used on input line 113.
+Package pdftex.def Info: images/ex1_Q4_reward.png used on input line 114.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [2 <./images/ex1_Q2_reward.png> <./images/ex1_Q3_reward.png>]
 <images/ex1_histogram_random.png, id=28, 455.45157pt x 255.95625pt>
 File: images/ex1_histogram_random.png Graphic file (type png)
 
 <use images/ex1_histogram_random.png>
-Package pdftex.def Info: images/ex1_histogram_random.png used on input line 123
+Package pdftex.def Info: images/ex1_histogram_random.png used on input line 124
 .
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
@@ -760,7 +760,7 @@ File: images/ex1_histogram_egreedy00.png Graphic file (type png)
 
 <use images/ex1_histogram_egreedy00.png>
 Package pdftex.def Info: images/ex1_histogram_egreedy00.png used on input line 
-127.
+128.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_histogram_egreedy01.png, id=30, 455.45157pt x 255.95625pt>
@@ -768,7 +768,7 @@ File: images/ex1_histogram_egreedy01.png Graphic file (type png)
 
 <use images/ex1_histogram_egreedy01.png>
 Package pdftex.def Info: images/ex1_histogram_egreedy01.png used on input line 
-132.
+133.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_histogram_egreedy02.png, id=31, 455.45157pt x 255.95625pt>
@@ -776,7 +776,7 @@ File: images/ex1_histogram_egreedy02.png Graphic file (type png)
 
 <use images/ex1_histogram_egreedy02.png>
 Package pdftex.def Info: images/ex1_histogram_egreedy02.png used on input line 
-136.
+137.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_histogram_softmax1.png, id=32, 455.45157pt x 255.95625pt>
@@ -784,7 +784,7 @@ File: images/ex1_histogram_softmax1.png Graphic file (type png)
 
 <use images/ex1_histogram_softmax1.png>
 Package pdftex.def Info: images/ex1_histogram_softmax1.png used on input line 1
-41.
+42.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_histogram_softmax01.png, id=33, 455.45157pt x 255.95625pt>
@@ -792,7 +792,7 @@ File: images/ex1_histogram_softmax01.png Graphic file (type png)
 
 <use images/ex1_histogram_softmax01.png>
 Package pdftex.def Info: images/ex1_histogram_softmax01.png used on input line 
-145.
+146.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
  [3 <./images/ex1_Q4_reward.png> <./images/ex1_histogram_random.png (PNG copy)>
  <./images/ex1_histogram_egreedy00.png (PNG copy)> <./images/ex1_histogram_egre
@@ -804,35 +804,35 @@ File: images/ex1_2_average_rewards.png Graphic file (type png)
 
 <use images/ex1_2_average_rewards.png>
 Package pdftex.def Info: images/ex1_2_average_rewards.png used on input line 16
-8.
+9.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_2_Q1_reward.png, id=39, 1485.55pt x 834.11626pt>
 File: images/ex1_2_Q1_reward.png Graphic file (type png)
 
 <use images/ex1_2_Q1_reward.png>
-Package pdftex.def Info: images/ex1_2_Q1_reward.png used on input line 176.
+Package pdftex.def Info: images/ex1_2_Q1_reward.png used on input line 177.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [4 <./images/ex1_2_average_rewards.png>]
 <images/ex1_2_Q2_reward.png, id=45, 1485.55pt x 834.11626pt>
 File: images/ex1_2_Q2_reward.png Graphic file (type png)
 
 <use images/ex1_2_Q2_reward.png>
-Package pdftex.def Info: images/ex1_2_Q2_reward.png used on input line 182.
+Package pdftex.def Info: images/ex1_2_Q2_reward.png used on input line 183.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_2_Q3_reward.png, id=46, 1485.55pt x 834.11626pt>
 File: images/ex1_2_Q3_reward.png Graphic file (type png)
 
 <use images/ex1_2_Q3_reward.png>
-Package pdftex.def Info: images/ex1_2_Q3_reward.png used on input line 188.
+Package pdftex.def Info: images/ex1_2_Q3_reward.png used on input line 189.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [5 <./images/ex1_2_Q1_reward.png> <./images/ex1_2_Q2_reward.png>]
 <images/ex1_2_Q4_reward.png, id=52, 1485.55pt x 834.11626pt>
 File: images/ex1_2_Q4_reward.png Graphic file (type png)
 
 <use images/ex1_2_Q4_reward.png>
-Package pdftex.def Info: images/ex1_2_Q4_reward.png used on input line 194.
+Package pdftex.def Info: images/ex1_2_Q4_reward.png used on input line 195.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_2_histogram_random.png, id=53, 455.45157pt x 255.95625pt>
@@ -840,7 +840,7 @@ File: images/ex1_2_histogram_random.png Graphic file (type png)
 
 <use images/ex1_2_histogram_random.png>
 Package pdftex.def Info: images/ex1_2_histogram_random.png used on input line 2
-04.
+05.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_2_histogram_egreedy00.png, id=54, 455.45157pt x 255.95625pt>
@@ -848,7 +848,7 @@ File: images/ex1_2_histogram_egreedy00.png Graphic file (type png)
 
 <use images/ex1_2_histogram_egreedy00.png>
 Package pdftex.def Info: images/ex1_2_histogram_egreedy00.png used on input lin
-e 208.
+e 209.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_2_histogram_egreedy01.png, id=55, 455.45157pt x 255.95625pt>
@@ -856,7 +856,7 @@ File: images/ex1_2_histogram_egreedy01.png Graphic file (type png)
 
 <use images/ex1_2_histogram_egreedy01.png>
 Package pdftex.def Info: images/ex1_2_histogram_egreedy01.png used on input lin
-e 213.
+e 214.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_2_histogram_egreedy02.png, id=56, 455.45157pt x 255.95625pt>
@@ -864,7 +864,7 @@ File: images/ex1_2_histogram_egreedy02.png Graphic file (type png)
 
 <use images/ex1_2_histogram_egreedy02.png>
 Package pdftex.def Info: images/ex1_2_histogram_egreedy02.png used on input lin
-e 217.
+e 218.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_2_histogram_softmax1.png, id=57, 455.45157pt x 255.95625pt>
@@ -872,7 +872,7 @@ File: images/ex1_2_histogram_softmax1.png Graphic file (type png)
 
 <use images/ex1_2_histogram_softmax1.png>
 Package pdftex.def Info: images/ex1_2_histogram_softmax1.png used on input line
- 222.
+ 223.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_2_histogram_softmax01.png, id=58, 455.45157pt x 255.95625pt>
@@ -880,7 +880,7 @@ File: images/ex1_2_histogram_softmax01.png Graphic file (type png)
 
 <use images/ex1_2_histogram_softmax01.png>
 Package pdftex.def Info: images/ex1_2_histogram_softmax01.png used on input lin
-e 226.
+e 227.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
  [6 <./images/ex1_2_Q3_reward.png> <./images/ex1_2_Q4_reward.png>]
 <images/ex1_3_average_rewards.png, id=65, 1485.55pt x 834.11626pt>
@@ -888,7 +888,7 @@ File: images/ex1_3_average_rewards.png Graphic file (type png)
 
 <use images/ex1_3_average_rewards.png>
 Package pdftex.def Info: images/ex1_3_average_rewards.png used on input line 24
-8.
+9.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [7 <./images/ex1_2_histogram_random.png (PNG copy)> <./images/ex1_2_histogram_
 egreedy00.png (PNG copy)> <./images/ex1_2_histogram_egreedy01.png (PNG copy)> <
@@ -898,28 +898,28 @@ ftmax1.png (PNG copy)> <./images/ex1_2_histogram_softmax01.png (PNG copy)>]
 File: images/ex1_3_Q1.png Graphic file (type png)
 
 <use images/ex1_3_Q1.png>
-Package pdftex.def Info: images/ex1_3_Q1.png used on input line 256.
+Package pdftex.def Info: images/ex1_3_Q1.png used on input line 257.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_3_Q2.png, id=70, 1485.55pt x 834.11626pt>
 File: images/ex1_3_Q2.png Graphic file (type png)
 
 <use images/ex1_3_Q2.png>
-Package pdftex.def Info: images/ex1_3_Q2.png used on input line 262.
+Package pdftex.def Info: images/ex1_3_Q2.png used on input line 263.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [8 <./images/ex1_3_average_rewards.png> <./images/ex1_3_Q1.png>] <images/ex1_3
 _Q3.png, id=76, 1485.55pt x 834.11626pt>
 File: images/ex1_3_Q3.png Graphic file (type png)
 
 <use images/ex1_3_Q3.png>
-Package pdftex.def Info: images/ex1_3_Q3.png used on input line 268.
+Package pdftex.def Info: images/ex1_3_Q3.png used on input line 269.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
 
 <images/ex1_3_Q4.png, id=77, 1485.55pt x 834.11626pt>
 File: images/ex1_3_Q4.png Graphic file (type png)
 
 <use images/ex1_3_Q4.png>
-Package pdftex.def Info: images/ex1_3_Q4.png used on input line 274.
+Package pdftex.def Info: images/ex1_3_Q4.png used on input line 275.
 (pdftex.def)             Requested size: 483.69687pt x 271.58095pt.
  [9 <./images/ex1_3_Q2.png> <./images/ex1_3_Q3.png>]
 <images/ex1_3_histogram_egreedytime.png, id=83, 455.45157pt x 255.95625pt>
@@ -927,7 +927,7 @@ File: images/ex1_3_histogram_egreedytime.png Graphic file (type png)
 
 <use images/ex1_3_histogram_egreedytime.png>
 Package pdftex.def Info: images/ex1_3_histogram_egreedytime.png used on input l
-ine 284.
+ine 285.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
 
 <images/ex1_3_histogram_softmaxtime.png, id=84, 455.45157pt x 255.95625pt>
@@ -935,29 +935,51 @@ File: images/ex1_3_histogram_softmaxtime.png Graphic file (type png)
 
 <use images/ex1_3_histogram_softmaxtime.png>
 Package pdftex.def Info: images/ex1_3_histogram_softmaxtime.png used on input l
-ine 288.
+ine 289.
 (pdftex.def)             Requested size: 241.84843pt x 135.91783pt.
  [10 <./images/ex1_3_Q4.png> <./images/ex1_3_histogram_egreedytime.png (PNG cop
-y)> <./images/ex1_3_histogram_softmaxtime.png (PNG copy)>] (./main.aux) ) 
+y)> <./images/ex1_3_histogram_softmaxtime.png (PNG copy)>] <images/ex2_a.png, i
+d=89, 435.87843pt x 252.945pt>
+File: images/ex2_a.png Graphic file (type png)
+
+<use images/ex2_a.png>
+Package pdftex.def Info: images/ex2_a.png used on input line 311.
+(pdftex.def)             Requested size: 483.69687pt x 280.69508pt.
+ <images/ex2_b.png, id=90, 434.37282pt x 250.68657pt>
+File: images/ex2_b.png Graphic file (type png)
+
+<use images/ex2_b.png>
+Package pdftex.def Info: images/ex2_b.png used on input line 317.
+(pdftex.def)             Requested size: 483.69687pt x 279.1681pt.
+ <images/ex2_c.png, id=91, 433.62pt x 251.43938pt>
+File: images/ex2_c.png Graphic file (type png)
+
+<use images/ex2_c.png>
+Package pdftex.def Info: images/ex2_c.png used on input line 323.
+(pdftex.def)             Requested size: 483.69687pt x 280.48987pt.
+ [11 <./images/ex2_a.png (PNG copy)> <./images/ex2_b.png (PNG copy)>] [12 <./im
+ages/ex2_c.png (PNG copy)>] (./main.bbl) [13] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5455 strings out of 493029
- 80908 string characters out of 6136234
- 154663 words of memory out of 5000000
- 8841 multiletter control sequences out of 15000+600000
+ 5475 strings out of 493029
+ 81254 string characters out of 6136234
+ 155667 words of memory out of 5000000
+ 8855 multiletter control sequences out of 15000+600000
  55367 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,11n,43p,506b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/
-share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/l
-m/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-
-Output written on main.pdf (11 pages, 1435983 bytes).
+ 42i,11n,43p,720b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/f
+onts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/pu
+blic/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmri10.pfb>
+Output written on main.pdf (14 pages, 1555577 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 66 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 

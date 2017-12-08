@@ -37,6 +37,7 @@
 \usepackage{enumitem}
 \setlist{nolistsep}
 
+
 \fancypagestyle{plain}{%
   \renewcommand{\headrulewidth}{0pt}%
   \fancyhf{}%
@@ -291,11 +292,57 @@ The average reward per algorithm is lower than compared to the first exercise. T
 
 \subsection{Results}
 
-
 The new \textit{eGreedy} algorithm performs better than any other algorithm. The new \textit{Softmax} algorithm performs only better than the \textit{random} algorithm after 1000 time steps but has an increasing curve. Over a longer time-period, it would out-perform the bottom three algorithms - \textit{Random}, \textit{eGreedy 0.0} and \textit{Softmax 1}.
 
 From the Q* value graphs we can observe that the \textit{Softmax Time} method is able to find the mean value of each arm faster than the \textit{eGreedy Time} method due to its higher exploration at the beginning. It does not outperform it though, as it exploits the best arm later.
 
 We can conclude from these experiments that the best way to achieve the highest reward over time is to explore at the beginning and then only exploit after some time. The downside of the \textit{eGreedy} algorithms is that they keep exploring even though they already \textit{learned} the best arms.
+
+
+\newpage
+\section{Stochastic Reward Game}
+
+The three cases were simulated 100 times each and their results averaged. This is necessary due to the biased nature of the Boltzmann selection algorithm.
+
+\subsection{Plotting}
+\begin{figure}[H]
+	\centering
+	\caption{a) $\sigma_0 = \sigma_1 = \sigma = 0.2$}
+    \includegraphics[width=1\linewidth]{ex2_a}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{b) $\sigma_0 = 4$, $\sigma_1 = \sigma = 0.1$}
+    \includegraphics[width=1\linewidth]{ex2_b}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{c) $\sigma_1 = 4$, $\sigma_0 = \sigma = 0.1$}
+    \includegraphics[width=1\linewidth]{ex2_c}
+\end{figure}
+
+For all of the three cases, the Optimistic Boltzmann algorithm performs better than the simple Boltzmann algorithm. In the first few steps we can see the optimistic Boltzmann algorithm exploring the estimates which is why it starts off negatively. The standard Boltzmann algorithm also starts off negatively, but only for the first round. It reaches the non-optimal strategy of $<a2,b2>$ in every of the three cases. The optimistic strategy finds for the most case the optimal strategy of $<a1,b1>$. It has a far higher deviation, even with 100 simulations, meaning that it still sometimes chooses the action of $<a2,b2>$. This could be reduced to obtain a pure $<a1,b1>$ action with a decreasing temperature.
+
+
+\subsection{Discussion}
+
+\subsubsection{Changing the learning process to independent learners}
+
+Changing to independent learners means that they do not observe of action played by the opposing player. This be the same as the n-armed bandit problem but with multiple distributions for each action. A independent learner would behave the same as the simple Boltzmann selection but would converge to the $<a2,b2>$ action slower. The research done by \textit{Caroline Claus and Craig Boutilier}\cite{Claus:1998:DRL:295240.295800} confirm this behaviour. They also show that the higher the penalty in the field $<a1,b2>$ and $<a2,b1>$, the lower the chance of converging to the optimal action. 
+
+\subsubsection{Always selecting highest reward}
+Assuming both players keep knowledge of every joint action and their rewards and that not played actions are given a very high reward so that exploring can occur, they will converge fast to a joint action. This is not necessarily the best action, as the exploration is minimal and their estimates of each action might not be close to the mean. Taking our example, if they explore the field $<a1,b1>$ once and it yields a reward of 5 due to a high deviation, they will play other actions, assuming they have previously explored some other actions which yielded a higher reward than 5. Meaning that the low exploration of this technique means that the best action might not be chosen.
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography start
+\newpage
+
+\bibliographystyle{unsrt}
+\bibliography{bibliography}
+
 
 \end{document}

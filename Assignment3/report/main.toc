@@ -14,3 +14,9 @@
 \contentsline {subsection}{\numberline {3.2}Q* values for each arm}{8}
 \contentsline {subsection}{\numberline {3.3}Histogram on actions chosen}{10}
 \contentsline {subsection}{\numberline {3.4}Results}{10}
+\contentsline {section}{\numberline {4}Stochastic Reward Game}{11}
+\contentsline {subsection}{\numberline {4.1}Plotting}{11}
+\contentsline {subsection}{\numberline {4.2}Discussion}{12}
+\contentsline {subsubsection}{\numberline {4.2.1}Changing the learning process to independent learners}{12}
+\contentsline {subsubsection}{\numberline {4.2.2}Always selecting highest reward}{12}
+\contentsline {section}{References}{13}
